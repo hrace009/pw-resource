@@ -1,0 +1,17 @@
+<%= form_for(@elf_wing) do |f| %>
+  <% if @elf_wing.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@elf_wing.errors.count, "error") %> prohibited this elf_wing from being saved:</h2>
+
+      <ul>
+      <% @elf_wing.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

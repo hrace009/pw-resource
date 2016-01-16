@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Skilltome Types</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @skilltome_types.each do |skilltome_type| %>
+      <tr>
+        <td><%= link_to 'Show', skilltome_type %></td>
+        <td><%= link_to 'Edit', edit_skilltome_type_path(skilltome_type) %></td>
+        <td><%= link_to 'Destroy', skilltome_type, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Skilltome type', new_skilltome_type_path %>

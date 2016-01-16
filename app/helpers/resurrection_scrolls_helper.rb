@@ -1,0 +1,2 @@
+module ResurrectionScrollsHelper
+end

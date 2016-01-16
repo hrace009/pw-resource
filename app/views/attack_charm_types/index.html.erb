@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Attack Charm Types</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @attack_charm_types.each do |attack_charm_type| %>
+      <tr>
+        <td><%= link_to 'Show', attack_charm_type %></td>
+        <td><%= link_to 'Edit', edit_attack_charm_type_path(attack_charm_type) %></td>
+        <td><%= link_to 'Destroy', attack_charm_type, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Attack charm type', new_attack_charm_type_path %>

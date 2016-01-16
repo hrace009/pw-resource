@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Quiver Types</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @quiver_types.each do |quiver_type| %>
+      <tr>
+        <td><%= link_to 'Show', quiver_type %></td>
+        <td><%= link_to 'Edit', edit_quiver_type_path(quiver_type) %></td>
+        <td><%= link_to 'Destroy', quiver_type, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Quiver type', new_quiver_type_path %>

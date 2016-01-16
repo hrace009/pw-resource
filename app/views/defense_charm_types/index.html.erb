@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Defense Charm Types</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @defense_charm_types.each do |defense_charm_type| %>
+      <tr>
+        <td><%= link_to 'Show', defense_charm_type %></td>
+        <td><%= link_to 'Edit', edit_defense_charm_type_path(defense_charm_type) %></td>
+        <td><%= link_to 'Destroy', defense_charm_type, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Defense charm type', new_defense_charm_type_path %>

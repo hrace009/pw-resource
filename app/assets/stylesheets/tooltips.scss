@@ -1,0 +1,42 @@
+$icon_width: 32px;
+$icon_border: 2px;
+$description_width: 415px;
+$description_border: 4px;
+
+.tooltip {
+    position: relative;
+    overflow: visible !important;
+    z-index: 999999;
+    color: #ffffff;
+
+    div.description {
+        p {
+            margin: 0px;
+        }
+        position: absolute;
+        top: 0px;
+        left: ($icon_width + $icon_border)*2;
+        width: $description_width + $description_border;
+        background: $description_border $description_border rgba(0, 0, 0, 0.6);
+
+        box-shadow:
+            0 0 0 1px #0e0b0a,
+            0 0 0 2px #2c1c0a,
+            0 0 0 3px #76644a,
+            0 0 0 4px #17120d;
+    }
+
+    img.icon {
+        position: absolute;
+        top: 0px;
+        width: $icon_width + $icon_border;
+        height: $icon_width + $icon_border;
+        background: 2px 2px no-repeat;
+        margin: 0;
+        padding: 0;
+
+        box-shadow: 
+            0 0 0 1px #a2a1a7,
+            0 0 0 2px #212442;
+    }
+}

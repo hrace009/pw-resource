@@ -1,0 +1,17 @@
+<%= form_for(@projectile_type) do |f| %>
+  <% if @projectile_type.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@projectile_type.errors.count, "error") %> prohibited this projectile_type from being saved:</h2>
+
+      <ul>
+      <% @projectile_type.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

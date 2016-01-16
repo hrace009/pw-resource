@@ -1,0 +1,59 @@
+<div class="tooltip">
+
+<%= image_tag "icons/"+@weapon.id.to_s %>
+
+<div class="description">
+<p><%= @weapon.name %></p>
+
+<p><%= @weapon.weapon_subtype.name %></p>
+
+<p>Lv. <%= @weapon.level %></p>
+
+<p>Attack Rate (Atks/sec) <%= sprintf("%.2f", 1/@weapon.weapon_subtype.attack_speed) %></p>
+
+<p>Range <%= sprintf("%.2f", @weapon.attack_range) %></p>
+
+<% if not @weapon.not_ranged %>
+<p>Min. Effective Range <%= sprintf("%.2f", @weapon.weapon_subtype.attack_short_range) %></p>
+<% end %>
+
+<p>Physical Attack <span class="refine_element" data-original="<%= @weapon.physical_damage_low %>"><%= @weapon.physical_damage_low %></span>–<span class="refine_element" data-original="<%= @weapon.physical_damage_high %>"><%= @weapon.physical_damage_high %></span></p>
+
+<% if @weapon.magic_damage_high > 0 %>
+<p>Magic Attack <span class="refine_element"><%= "#{@weapon.magic_damage_low}–#{@weapon.magic_damage_high}" %></span></p>
+<% end %>
+
+<p>Durability <%= @weapon.durability %></p>
+
+<% if @weapon.projectile_type %>
+<p>Type <%= @weapon.projectile_type.name %></p>
+<% end %>
+
+<p>Required Class: <%= extract_class_bitfield(@weapon.requisite_class_bitfield) %></p>
+
+<p>Requisite Lv. <%= @weapon.requisite_level %></p>
+
+<% if @weapon.requisite_strength > 0 %>
+<p>Requisite Strength <%= @weapon.requisite_strength %></p>
+<% end %>
+
+<% if @weapon.requisite_dexterity > 0 %>
+<p>Requisite Dexterity <%= @weapon.requisite_dexterity %></p>
+<% end %>
+
+<% if @weapon.requisite_magic > 0 %>
+<p>Requisite Magic <%= @weapon.requisite_magic %></p>
+<% end %>
+
+<% if @weapon.requisite_vitality > 0 %>
+<p>Requisite Vitality <%= @weapon.requisite_vitality %></p>
+<% end %>
+
+<% if @weapon.requisite_reputation > 0 %>
+<p>Requisite Reputation: <%= @weapon.requisite_reputation %></p>
+<% end %>
+
+<p>Price <%= "#{@weapon.price} / #{@weapon.shop_price}" %></p>
+</div>
+
+</div>

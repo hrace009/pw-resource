@@ -1,0 +1,17 @@
+<%= form_for(@attack_charm) do |f| %>
+  <% if @attack_charm.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@attack_charm.errors.count, "error") %> prohibited this attack_charm from being saved:</h2>
+
+      <ul>
+      <% @attack_charm.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

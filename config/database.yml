@@ -1,0 +1,32 @@
+defaults: &defaults
+    adapter: mysql2
+    pool: 5
+    timeout: 5000
+    username: root
+    host: localhost
+    encoding: utf8
+    collation: utf8_unicode_ci
+
+elementdata_development:
+    database: elementdata_development
+    <<: *defaults
+
+elementdata_test:
+    database: elementdata_test
+    <<: *defaults
+
+elementdata_production:
+    database: elementdata_production
+    <<: *defaults
+
+development:
+    database: pwr_development
+    <<: *defaults
+
+test:
+    database: pwr_test
+    <<: *defaults
+
+production:
+    database: pwr_production
+    <<: *defaults

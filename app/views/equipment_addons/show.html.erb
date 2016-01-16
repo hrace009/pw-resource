@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<h2><%= @equipment_addon.name %></h2>
+Parameters:
+<ol>
+    <% for param in @equipment_addon.param_list %>
+        <li><%= param %></li>
+    <% end %>
+</ol>
+

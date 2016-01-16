@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Ornament Subtypes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @ornament_subtypes.each do |ornament_subtype| %>
+      <tr>
+        <td><%= link_to 'Show', ornament_subtype %></td>
+        <td><%= link_to 'Edit', edit_ornament_subtype_path(ornament_subtype) %></td>
+        <td><%= link_to 'Destroy', ornament_subtype, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Ornament subtype', new_ornament_subtype_path %>

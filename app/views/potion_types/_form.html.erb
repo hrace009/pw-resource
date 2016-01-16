@@ -1,0 +1,17 @@
+<%= form_for(@potion_type) do |f| %>
+  <% if @potion_type.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@potion_type.errors.count, "error") %> prohibited this potion_type from being saved:</h2>
+
+      <ul>
+      <% @potion_type.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

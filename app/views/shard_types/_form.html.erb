@@ -1,0 +1,17 @@
+<%= form_for(@shard_type) do |f| %>
+  <% if @shard_type.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@shard_type.errors.count, "error") %> prohibited this shard_type from being saved:</h2>
+
+      <ul>
+      <% @shard_type.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

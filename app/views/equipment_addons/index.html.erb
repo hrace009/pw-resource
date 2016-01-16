@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Equipment Addons</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @equipment_addons.each do |equipment_addon| %>
+      <tr>
+        <td><%= equipment_addon.name %></td>
+        <td><%= link_to 'Show', equipment_addon %></td>
+        <td><%= link_to 'Edit', edit_equipment_addon_path(equipment_addon) %></td>
+        <td><%= link_to 'Destroy', equipment_addon, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<%= will_paginate @equipment_addons %>
+
+<br>
+
+<%= link_to 'New Equipment addon', new_equipment_addon_path %>

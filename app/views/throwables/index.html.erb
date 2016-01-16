@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Throwables</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @throwables.each do |throwable| %>
+      <tr>
+        <td><%= link_to 'Show', throwable %></td>
+        <td><%= link_to 'Edit', edit_throwable_path(throwable) %></td>
+        <td><%= link_to 'Destroy', throwable, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Throwable', new_throwable_path %>

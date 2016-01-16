@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Projectiles</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @projectiles.each do |projectile| %>
+      <tr>
+        <td><%= link_to 'Show', projectile %></td>
+        <td><%= link_to 'Edit', edit_projectile_path(projectile) %></td>
+        <td><%= link_to 'Destroy', projectile, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Projectile', new_projectile_path %>

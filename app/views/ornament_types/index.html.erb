@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Ornament Types</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @ornament_types.each do |ornament_type| %>
+      <tr>
+        <td><%= link_to 'Show', ornament_type %></td>
+        <td><%= link_to 'Edit', edit_ornament_type_path(ornament_type) %></td>
+        <td><%= link_to 'Destroy', ornament_type, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Ornament type', new_ornament_type_path %>

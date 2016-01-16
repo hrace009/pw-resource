@@ -1,0 +1,17 @@
+<%= form_for(@throwable) do |f| %>
+  <% if @throwable.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@throwable.errors.count, "error") %> prohibited this throwable from being saved:</h2>
+
+      <ul>
+      <% @throwable.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

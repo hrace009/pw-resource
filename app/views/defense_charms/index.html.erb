@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Defense Charms</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @defense_charms.each do |defense_charm| %>
+      <tr>
+        <td><%= link_to 'Show', defense_charm %></td>
+        <td><%= link_to 'Edit', edit_defense_charm_path(defense_charm) %></td>
+        <td><%= link_to 'Destroy', defense_charm, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Defense charm', new_defense_charm_path %>

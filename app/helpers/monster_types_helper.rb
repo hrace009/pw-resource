@@ -1,0 +1,2 @@
+module MonsterTypesHelper
+end

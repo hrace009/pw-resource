@@ -1,0 +1,2 @@
+module ShardTypesHelper
+end

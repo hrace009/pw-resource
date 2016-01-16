@@ -1,0 +1,17 @@
+<%= form_for(@monster_addon) do |f| %>
+  <% if @monster_addon.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@monster_addon.errors.count, "error") %> prohibited this monster_addon from being saved:</h2>
+
+      <ul>
+      <% @monster_addon.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

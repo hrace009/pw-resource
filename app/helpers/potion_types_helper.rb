@@ -1,0 +1,2 @@
+module PotionTypesHelper
+end

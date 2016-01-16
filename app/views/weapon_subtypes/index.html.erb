@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Weapon Subtypes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @weapon_subtypes.each do |weapon_subtype| %>
+      <tr>
+        <td><%= link_to 'Show', weapon_subtype %></td>
+        <td><%= link_to 'Edit', edit_weapon_subtype_path(weapon_subtype) %></td>
+        <td><%= link_to 'Destroy', weapon_subtype, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Weapon subtype', new_weapon_subtype_path %>

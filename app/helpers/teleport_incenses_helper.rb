@@ -1,0 +1,2 @@
+module TeleportIncensesHelper
+end

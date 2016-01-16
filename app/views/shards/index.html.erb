@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Shards</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @shards.each do |shard| %>
+      <tr>
+        <td><%= link_to 'Show', shard %></td>
+        <td><%= link_to 'Edit', edit_shard_path(shard) %></td>
+        <td><%= link_to 'Destroy', shard, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Shard', new_shard_path %>

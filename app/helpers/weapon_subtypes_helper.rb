@@ -1,0 +1,2 @@
+module WeaponSubtypesHelper
+end

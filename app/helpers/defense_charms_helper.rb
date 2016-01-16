@@ -1,0 +1,2 @@
+module DefenseCharmsHelper
+end

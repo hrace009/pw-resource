@@ -1,0 +1,2 @@
+module SkilltomesHelper
+end
