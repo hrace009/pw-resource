@@ -11,7 +11,7 @@ Planned features include:
 
 PWResource is built on Rails 4.2. The setup/database populate scripts require Python 3.5 or above, and only support importing into MySQL databases at the moment. Feel free to modify load.py as needed if you're using something else.
 
-<tt>setup/load.py</tt> will extract data into your database from the given <tt>elements.data</tt> file based on the configuration file supplied. Once you've loaded the element data into the database, update <tt>config/database.yml</tt> with your database information and you're ready to go (<tt>rails s</tt>).
+<tt>setup/load.py</tt> will extract data into your database from the given <tt>elements.data</tt> file based on the configuration file supplied. Once you've loaded the element data into the database, update <tt>config/database.yml</tt> with your database information and run <tt>bundle install</tt>, and you're ready to go (<tt>rails s</tt>).
 
 ==== A note on load configurations
 
