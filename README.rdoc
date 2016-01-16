@@ -15,7 +15,7 @@ PWResource is built on Rails 4.2. The setup/database populate scripts require Py
 
 ==== A note on load configurations
 
-If you're used to pwtools, note that PWResource uses a _different_ configuration file layout (<tt>.pwc</tt>) -- you can use <tt>setup/config_migrator.py</tt> to convert a seledit configuration file to a PWResource one. PWResource config files support an @ignore tag (at the end of a line) to tell the loader to skip adding that table or field to the database.
+If you're used to pwtools, note that PWResource uses a _different_ configuration file layout (<tt>.pwc</tt>) -- you can use <tt>setup/config_migrator.py</tt> to convert a seledit configuration file to a PWResource one. PWResource config files support an <tt>@ignore</tt> tag (at the end of a line) to tell the loader to skip adding that table or field to the database.
 
 Also, note that the naming of tables and fields in the configuration is (of course) very important; it is *highly* recommended that you do not stray from the naming used in the provided <tt>.pwc</tt> configuration file unless you wish to do your own code modifications to support your changes.
 
