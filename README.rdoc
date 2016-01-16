@@ -1,28 +1,24 @@
-== README
+= PWResource
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Provides various tools and utilities for players of Perfect World International.
 
-Things you may want to cover:
+Planned features include:
+* A _Database_ module for browsing/searching in-game items
+* A _Calculator_ module for creating, displaying, and sharing character builds
+* A _Roster_ module for creating player rosters, organizing them into squads, and exporting this data into text for use elsewhere
 
-* Ruby version
+== Installation / Setup
 
-* System dependencies
+PWResource is built on Rails 4.2. The setup/database populate scripts require Python 3.5 or above.
 
-* Configuration
+<tt>setup/load.py</tt> will extract data into your database from the given <tt>elements.data</tt> file based on the configuration file supplied. Once you've loaded the element data into the database, update <tt>config/database.yml</tt> with your database information and you're ready to go (<tt>rails s</tt>).
 
-* Database creation
+==== A note on load configurations
 
-* Database initialization
+If you're used to pwtools, note that PWResource uses a _different_ configuration file layout (<tt>.pwc</tt>) -- you can use <tt>setup/config_migrator.py</tt> to convert a seledit configuration file to a PWResource one. PWResource config files support an @ignore tag (at the end of a line) to tell the loader to skip adding that table or field to the database.
 
-* How to run the test suite
+Also, note that the naming of tables and fields in the configuration is (of course) very important; it is *highly* recommended that you do not stray from the naming used in the provided <tt>.pwc</tt> configuration file unless you wish to do your own code modifications to support your changes.
 
-* Services (job queues, cache servers, search engines, etc.)
+== About / Purpose
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+PWResource was initially conceived to fill the void left by the disappearance of Skyflox's pwcalc.com website (which later returned, but has seen no updates since). Its intended features have since grown and its purpose altered to more of a personal interest and learning experience.
