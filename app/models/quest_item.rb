@@ -1,3 +1,3 @@
-class QuestItem < < ElementdataModel
+class QuestItem < ElementdataModel
     self.primary_key = "id"
 end
