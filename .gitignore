@@ -36,3 +36,6 @@ bower.json
 __pycache__/
 *.py[cod]
 *$py.class
+
+#Asset pipeline
+/public/assets
