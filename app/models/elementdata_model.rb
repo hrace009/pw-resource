@@ -1,6 +1,12 @@
 class ElementdataModel < ActiveRecord::Base
     self.abstract_class = true
-    establish_connection :elementdata_development
+    if Rails.env.production? then
+        establish_connection :elementdata_production
+    elsif Rails.env.test? then
+        establish_connection :elementdata_test
+    else
+        establish_connection :elementdata_development
+    end
 
     before_save :disallow
     before_create :disallow
