@@ -1374,99 +1374,131 @@ npc_sell_service offset 0
 	pages_1_goods_1_id int
 	pages_1_goods_1_contrib_cost int
 	pages_1_goods_1_force_contribution_cost int
+	pages_1_goods_1_unknown int
 	pages_1_goods_2_id int
 	pages_1_goods_2_contrib_cost int
 	pages_1_goods_2_force_contribution_cost int
+	pages_1_goods_2_unknown int
 	pages_1_goods_3_id int
 	pages_1_goods_3_contrib_cost int
 	pages_1_goods_3_force_contribution_cost int
+	pages_1_goods_3_unknown int
 	pages_1_goods_4_id int
 	pages_1_goods_4_contrib_cost int
 	pages_1_goods_4_force_contribution_cost int
+	pages_1_goods_4_unknown int
 	pages_1_goods_5_id int
 	pages_1_goods_5_contrib_cost int
 	pages_1_goods_5_force_contribution_cost int
+	pages_1_goods_5_unknown int
 	pages_1_goods_6_id int
 	pages_1_goods_6_contrib_cost int
 	pages_1_goods_6_force_contribution_cost int
+	pages_1_goods_6_unknown int
 	pages_1_goods_7_id int
 	pages_1_goods_7_contrib_cost int
 	pages_1_goods_7_force_contribution_cost int
+	pages_1_goods_7_unknown int
 	pages_1_goods_8_id int
 	pages_1_goods_8_contrib_cost int
 	pages_1_goods_8_force_contribution_cost int
+	pages_1_goods_8_unknown int
 	pages_1_goods_9_id int
 	pages_1_goods_9_contrib_cost int
 	pages_1_goods_9_force_contribution_cost int
+	pages_1_goods_9_unknown int
 	pages_1_goods_10_id int
 	pages_1_goods_10_contrib_cost int
 	pages_1_goods_10_force_contribution_cost int
+	pages_1_goods_10_unknown int
 	pages_1_goods_11_id int
 	pages_1_goods_11_contrib_cost int
 	pages_1_goods_11_force_contribution_cost int
+	pages_1_goods_11_unknown int
 	pages_1_goods_12_id int
 	pages_1_goods_12_contrib_cost int
 	pages_1_goods_12_force_contribution_cost int
+	pages_1_goods_12_unknown int
 	pages_1_goods_13_id int
 	pages_1_goods_13_contrib_cost int
 	pages_1_goods_13_force_contribution_cost int
+	pages_1_goods_13_unknown int
 	pages_1_goods_14_id int
 	pages_1_goods_14_contrib_cost int
 	pages_1_goods_14_force_contribution_cost int
+	pages_1_goods_14_unknown int
 	pages_1_goods_15_id int
 	pages_1_goods_15_contrib_cost int
 	pages_1_goods_15_force_contribution_cost int
+	pages_1_goods_15_unknown int
 	pages_1_goods_16_id int
 	pages_1_goods_16_contrib_cost int
 	pages_1_goods_16_force_contribution_cost int
+	pages_1_goods_16_unknown int
 	pages_1_goods_17_id int
 	pages_1_goods_17_contrib_cost int
 	pages_1_goods_17_force_contribution_cost int
+	pages_1_goods_17_unknown int
 	pages_1_goods_18_id int
 	pages_1_goods_18_contrib_cost int
 	pages_1_goods_18_force_contribution_cost int
+	pages_1_goods_18_unknown int
 	pages_1_goods_19_id int
 	pages_1_goods_19_contrib_cost int
 	pages_1_goods_19_force_contribution_cost int
+	pages_1_goods_19_unknown int
 	pages_1_goods_20_id int
 	pages_1_goods_20_contrib_cost int
 	pages_1_goods_20_force_contribution_cost int
+	pages_1_goods_20_unknown int
 	pages_1_goods_21_id int
 	pages_1_goods_21_contrib_cost int
 	pages_1_goods_21_force_contribution_cost int
+	pages_1_goods_21_unknown int
 	pages_1_goods_22_id int
 	pages_1_goods_22_contrib_cost int
 	pages_1_goods_22_force_contribution_cost int
+	pages_1_goods_22_unknown int
 	pages_1_goods_23_id int
 	pages_1_goods_23_contrib_cost int
 	pages_1_goods_23_force_contribution_cost int
+	pages_1_goods_23_unknown int
 	pages_1_goods_24_id int
 	pages_1_goods_24_contrib_cost int
 	pages_1_goods_24_force_contribution_cost int
+	pages_1_goods_24_unknown int
 	pages_1_goods_25_id int
 	pages_1_goods_25_contrib_cost int
 	pages_1_goods_25_force_contribution_cost int
+	pages_1_goods_25_unknown int
 	pages_1_goods_26_id int
 	pages_1_goods_26_contrib_cost int
 	pages_1_goods_26_force_contribution_cost int
+	pages_1_goods_26_unknown int
 	pages_1_goods_27_id int
 	pages_1_goods_27_contrib_cost int
 	pages_1_goods_27_force_contribution_cost int
+	pages_1_goods_27_unknown int
 	pages_1_goods_28_id int
 	pages_1_goods_28_contrib_cost int
 	pages_1_goods_28_force_contribution_cost int
+	pages_1_goods_28_unknown int
 	pages_1_goods_29_id int
 	pages_1_goods_29_contrib_cost int
 	pages_1_goods_29_force_contribution_cost int
+	pages_1_goods_29_unknown int
 	pages_1_goods_30_id int
 	pages_1_goods_30_contrib_cost int
 	pages_1_goods_30_force_contribution_cost int
+	pages_1_goods_30_unknown int
 	pages_1_goods_31_id int
 	pages_1_goods_31_contrib_cost int
 	pages_1_goods_31_force_contribution_cost int
+	pages_1_goods_31_unknown int
 	pages_1_goods_32_id int
 	pages_1_goods_32_contrib_cost int
 	pages_1_goods_32_force_contribution_cost int
+	pages_1_goods_32_unknown int
 	pages_2_page_title utf16 16
 	pages_2_require_contrib int
 	pages_2_require_force int
@@ -1474,99 +1506,131 @@ npc_sell_service offset 0
 	pages_2_goods_1_id int
 	pages_2_goods_1_contrib_cost int
 	pages_2_goods_1_force_contribution_cost int
+	pages_2_goods_1_unknown int
 	pages_2_goods_2_id int
 	pages_2_goods_2_contrib_cost int
 	pages_2_goods_2_force_contribution_cost int
+	pages_2_goods_2_unknown int
 	pages_2_goods_3_id int
 	pages_2_goods_3_contrib_cost int
 	pages_2_goods_3_force_contribution_cost int
+	pages_2_goods_3_unknown int
 	pages_2_goods_4_id int
 	pages_2_goods_4_contrib_cost int
 	pages_2_goods_4_force_contribution_cost int
+	pages_2_goods_4_unknown int
 	pages_2_goods_5_id int
 	pages_2_goods_5_contrib_cost int
 	pages_2_goods_5_force_contribution_cost int
+	pages_2_goods_5_unknown int
 	pages_2_goods_6_id int
 	pages_2_goods_6_contrib_cost int
 	pages_2_goods_6_force_contribution_cost int
+	pages_2_goods_6_unknown int
 	pages_2_goods_7_id int
 	pages_2_goods_7_contrib_cost int
 	pages_2_goods_7_force_contribution_cost int
+	pages_2_goods_7_unknown int
 	pages_2_goods_8_id int
 	pages_2_goods_8_contrib_cost int
 	pages_2_goods_8_force_contribution_cost int
+	pages_2_goods_8_unknown int
 	pages_2_goods_9_id int
 	pages_2_goods_9_contrib_cost int
 	pages_2_goods_9_force_contribution_cost int
+	pages_2_goods_9_unknown int
 	pages_2_goods_10_id int
 	pages_2_goods_10_contrib_cost int
 	pages_2_goods_10_force_contribution_cost int
+	pages_2_goods_10_unknown int
 	pages_2_goods_11_id int
 	pages_2_goods_11_contrib_cost int
 	pages_2_goods_11_force_contribution_cost int
+	pages_2_goods_11_unknown int
 	pages_2_goods_12_id int
 	pages_2_goods_12_contrib_cost int
 	pages_2_goods_12_force_contribution_cost int
+	pages_2_goods_12_unknown int
 	pages_2_goods_13_id int
 	pages_2_goods_13_contrib_cost int
 	pages_2_goods_13_force_contribution_cost int
+	pages_2_goods_13_unknown int
 	pages_2_goods_14_id int
 	pages_2_goods_14_contrib_cost int
 	pages_2_goods_14_force_contribution_cost int
+	pages_2_goods_14_unknown int
 	pages_2_goods_15_id int
 	pages_2_goods_15_contrib_cost int
 	pages_2_goods_15_force_contribution_cost int
+	pages_2_goods_15_unknown int
 	pages_2_goods_16_id int
 	pages_2_goods_16_contrib_cost int
 	pages_2_goods_16_force_contribution_cost int
+	pages_2_goods_16_unknown int
 	pages_2_goods_17_id int
 	pages_2_goods_17_contrib_cost int
 	pages_2_goods_17_force_contribution_cost int
+	pages_2_goods_17_unknown int
 	pages_2_goods_18_id int
 	pages_2_goods_18_contrib_cost int
 	pages_2_goods_18_force_contribution_cost int
+	pages_2_goods_18_unknown int
 	pages_2_goods_19_id int
 	pages_2_goods_19_contrib_cost int
 	pages_2_goods_19_force_contribution_cost int
+	pages_2_goods_19_unknown int
 	pages_2_goods_20_id int
 	pages_2_goods_20_contrib_cost int
 	pages_2_goods_20_force_contribution_cost int
+	pages_2_goods_20_unknown int
 	pages_2_goods_21_id int
 	pages_2_goods_21_contrib_cost int
 	pages_2_goods_21_force_contribution_cost int
+	pages_2_goods_21_unknown int
 	pages_2_goods_22_id int
 	pages_2_goods_22_contrib_cost int
 	pages_2_goods_22_force_contribution_cost int
+	pages_2_goods_22_unknown int
 	pages_2_goods_23_id int
 	pages_2_goods_23_contrib_cost int
 	pages_2_goods_23_force_contribution_cost int
+	pages_2_goods_23_unknown int
 	pages_2_goods_24_id int
 	pages_2_goods_24_contrib_cost int
 	pages_2_goods_24_force_contribution_cost int
+	pages_2_goods_24_unknown int
 	pages_2_goods_25_id int
 	pages_2_goods_25_contrib_cost int
 	pages_2_goods_25_force_contribution_cost int
+	pages_2_goods_25_unknown int
 	pages_2_goods_26_id int
 	pages_2_goods_26_contrib_cost int
 	pages_2_goods_26_force_contribution_cost int
+	pages_2_goods_26_unknown int
 	pages_2_goods_27_id int
 	pages_2_goods_27_contrib_cost int
 	pages_2_goods_27_force_contribution_cost int
+	pages_2_goods_27_unknown int
 	pages_2_goods_28_id int
 	pages_2_goods_28_contrib_cost int
 	pages_2_goods_28_force_contribution_cost int
+	pages_2_goods_28_unknown int
 	pages_2_goods_29_id int
 	pages_2_goods_29_contrib_cost int
 	pages_2_goods_29_force_contribution_cost int
+	pages_2_goods_29_unknown int
 	pages_2_goods_30_id int
 	pages_2_goods_30_contrib_cost int
 	pages_2_goods_30_force_contribution_cost int
+	pages_2_goods_30_unknown int
 	pages_2_goods_31_id int
 	pages_2_goods_31_contrib_cost int
 	pages_2_goods_31_force_contribution_cost int
+	pages_2_goods_31_unknown int
 	pages_2_goods_32_id int
 	pages_2_goods_32_contrib_cost int
 	pages_2_goods_32_force_contribution_cost int
+	pages_2_goods_32_unknown int
 	pages_3_page_title utf16 16
 	pages_3_require_contrib int
 	pages_3_require_force int
@@ -1574,99 +1638,131 @@ npc_sell_service offset 0
 	pages_3_goods_1_id int
 	pages_3_goods_1_contrib_cost int
 	pages_3_goods_1_force_contribution_cost int
+	pages_3_goods_1_unknown int
 	pages_3_goods_2_id int
 	pages_3_goods_2_contrib_cost int
 	pages_3_goods_2_force_contribution_cost int
+	pages_3_goods_2_unknown int
 	pages_3_goods_3_id int
 	pages_3_goods_3_contrib_cost int
 	pages_3_goods_3_force_contribution_cost int
+	pages_3_goods_3_unknown int
 	pages_3_goods_4_id int
 	pages_3_goods_4_contrib_cost int
 	pages_3_goods_4_force_contribution_cost int
+	pages_3_goods_4_unknown int
 	pages_3_goods_5_id int
 	pages_3_goods_5_contrib_cost int
 	pages_3_goods_5_force_contribution_cost int
+	pages_3_goods_5_unknown int
 	pages_3_goods_6_id int
 	pages_3_goods_6_contrib_cost int
 	pages_3_goods_6_force_contribution_cost int
+	pages_3_goods_6_unknown int
 	pages_3_goods_7_id int
 	pages_3_goods_7_contrib_cost int
 	pages_3_goods_7_force_contribution_cost int
+	pages_3_goods_7_unknown int
 	pages_3_goods_8_id int
 	pages_3_goods_8_contrib_cost int
 	pages_3_goods_8_force_contribution_cost int
+	pages_3_goods_8_unknown int
 	pages_3_goods_9_id int
 	pages_3_goods_9_contrib_cost int
 	pages_3_goods_9_force_contribution_cost int
+	pages_3_goods_9_unknown int
 	pages_3_goods_10_id int
 	pages_3_goods_10_contrib_cost int
 	pages_3_goods_10_force_contribution_cost int
+	pages_3_goods_10_unknown int
 	pages_3_goods_11_id int
 	pages_3_goods_11_contrib_cost int
 	pages_3_goods_11_force_contribution_cost int
+	pages_3_goods_11_unknown int
 	pages_3_goods_12_id int
 	pages_3_goods_12_contrib_cost int
 	pages_3_goods_12_force_contribution_cost int
+	pages_3_goods_12_unknown int
 	pages_3_goods_13_id int
 	pages_3_goods_13_contrib_cost int
 	pages_3_goods_13_force_contribution_cost int
+	pages_3_goods_13_unknown int
 	pages_3_goods_14_id int
 	pages_3_goods_14_contrib_cost int
 	pages_3_goods_14_force_contribution_cost int
+	pages_3_goods_14_unknown int
 	pages_3_goods_15_id int
 	pages_3_goods_15_contrib_cost int
 	pages_3_goods_15_force_contribution_cost int
+	pages_3_goods_15_unknown int
 	pages_3_goods_16_id int
 	pages_3_goods_16_contrib_cost int
 	pages_3_goods_16_force_contribution_cost int
+	pages_3_goods_16_unknown int
 	pages_3_goods_17_id int
 	pages_3_goods_17_contrib_cost int
 	pages_3_goods_17_force_contribution_cost int
+	pages_3_goods_17_unknown int
 	pages_3_goods_18_id int
 	pages_3_goods_18_contrib_cost int
 	pages_3_goods_18_force_contribution_cost int
+	pages_3_goods_18_unknown int
 	pages_3_goods_19_id int
 	pages_3_goods_19_contrib_cost int
 	pages_3_goods_19_force_contribution_cost int
+	pages_3_goods_19_unknown int
 	pages_3_goods_20_id int
 	pages_3_goods_20_contrib_cost int
 	pages_3_goods_20_force_contribution_cost int
+	pages_3_goods_20_unknown int
 	pages_3_goods_21_id int
 	pages_3_goods_21_contrib_cost int
 	pages_3_goods_21_force_contribution_cost int
+	pages_3_goods_21_unknown int
 	pages_3_goods_22_id int
 	pages_3_goods_22_contrib_cost int
 	pages_3_goods_22_force_contribution_cost int
+	pages_3_goods_22_unknown int
 	pages_3_goods_23_id int
 	pages_3_goods_23_contrib_cost int
 	pages_3_goods_23_force_contribution_cost int
+	pages_3_goods_23_unknown int
 	pages_3_goods_24_id int
 	pages_3_goods_24_contrib_cost int
 	pages_3_goods_24_force_contribution_cost int
+	pages_3_goods_24_unknown int
 	pages_3_goods_25_id int
 	pages_3_goods_25_contrib_cost int
 	pages_3_goods_25_force_contribution_cost int
+	pages_3_goods_25_unknown int
 	pages_3_goods_26_id int
 	pages_3_goods_26_contrib_cost int
 	pages_3_goods_26_force_contribution_cost int
+	pages_3_goods_26_unknown int
 	pages_3_goods_27_id int
 	pages_3_goods_27_contrib_cost int
 	pages_3_goods_27_force_contribution_cost int
+	pages_3_goods_27_unknown int
 	pages_3_goods_28_id int
 	pages_3_goods_28_contrib_cost int
 	pages_3_goods_28_force_contribution_cost int
+	pages_3_goods_28_unknown int
 	pages_3_goods_29_id int
 	pages_3_goods_29_contrib_cost int
 	pages_3_goods_29_force_contribution_cost int
+	pages_3_goods_29_unknown int
 	pages_3_goods_30_id int
 	pages_3_goods_30_contrib_cost int
 	pages_3_goods_30_force_contribution_cost int
+	pages_3_goods_30_unknown int
 	pages_3_goods_31_id int
 	pages_3_goods_31_contrib_cost int
 	pages_3_goods_31_force_contribution_cost int
+	pages_3_goods_31_unknown int
 	pages_3_goods_32_id int
 	pages_3_goods_32_contrib_cost int
 	pages_3_goods_32_force_contribution_cost int
+	pages_3_goods_32_unknown int
 	pages_4_page_title utf16 16
 	pages_4_require_contrib int
 	pages_4_require_force int
@@ -1674,99 +1770,131 @@ npc_sell_service offset 0
 	pages_4_goods_1_id int
 	pages_4_goods_1_contrib_cost int
 	pages_4_goods_1_force_contribution_cost int
+	pages_4_goods_1_unknown int
 	pages_4_goods_2_id int
 	pages_4_goods_2_contrib_cost int
 	pages_4_goods_2_force_contribution_cost int
+	pages_4_goods_2_unknown int
 	pages_4_goods_3_id int
 	pages_4_goods_3_contrib_cost int
 	pages_4_goods_3_force_contribution_cost int
+	pages_4_goods_3_unknown int
 	pages_4_goods_4_id int
 	pages_4_goods_4_contrib_cost int
 	pages_4_goods_4_force_contribution_cost int
+	pages_4_goods_4_unknown int
 	pages_4_goods_5_id int
 	pages_4_goods_5_contrib_cost int
 	pages_4_goods_5_force_contribution_cost int
+	pages_4_goods_5_unknown int
 	pages_4_goods_6_id int
 	pages_4_goods_6_contrib_cost int
 	pages_4_goods_6_force_contribution_cost int
+	pages_4_goods_6_unknown int
 	pages_4_goods_7_id int
 	pages_4_goods_7_contrib_cost int
 	pages_4_goods_7_force_contribution_cost int
+	pages_4_goods_7_unknown int
 	pages_4_goods_8_id int
 	pages_4_goods_8_contrib_cost int
 	pages_4_goods_8_force_contribution_cost int
+	pages_4_goods_8_unknown int
 	pages_4_goods_9_id int
 	pages_4_goods_9_contrib_cost int
 	pages_4_goods_9_force_contribution_cost int
+	pages_4_goods_9_unknown int
 	pages_4_goods_10_id int
 	pages_4_goods_10_contrib_cost int
 	pages_4_goods_10_force_contribution_cost int
+	pages_4_goods_10_unknown int
 	pages_4_goods_11_id int
 	pages_4_goods_11_contrib_cost int
 	pages_4_goods_11_force_contribution_cost int
+	pages_4_goods_11_unknown int
 	pages_4_goods_12_id int
 	pages_4_goods_12_contrib_cost int
 	pages_4_goods_12_force_contribution_cost int
+	pages_4_goods_12_unknown int
 	pages_4_goods_13_id int
 	pages_4_goods_13_contrib_cost int
 	pages_4_goods_13_force_contribution_cost int
+	pages_4_goods_13_unknown int
 	pages_4_goods_14_id int
 	pages_4_goods_14_contrib_cost int
 	pages_4_goods_14_force_contribution_cost int
+	pages_4_goods_14_unknown int
 	pages_4_goods_15_id int
 	pages_4_goods_15_contrib_cost int
 	pages_4_goods_15_force_contribution_cost int
+	pages_4_goods_15_unknown int
 	pages_4_goods_16_id int
 	pages_4_goods_16_contrib_cost int
 	pages_4_goods_16_force_contribution_cost int
+	pages_4_goods_16_unknown int
 	pages_4_goods_17_id int
 	pages_4_goods_17_contrib_cost int
 	pages_4_goods_17_force_contribution_cost int
+	pages_4_goods_17_unknown int
 	pages_4_goods_18_id int
 	pages_4_goods_18_contrib_cost int
 	pages_4_goods_18_force_contribution_cost int
+	pages_4_goods_18_unknown int
 	pages_4_goods_19_id int
 	pages_4_goods_19_contrib_cost int
 	pages_4_goods_19_force_contribution_cost int
+	pages_4_goods_19_unknown int
 	pages_4_goods_20_id int
 	pages_4_goods_20_contrib_cost int
 	pages_4_goods_20_force_contribution_cost int
+	pages_4_goods_20_unknown int
 	pages_4_goods_21_id int
 	pages_4_goods_21_contrib_cost int
 	pages_4_goods_21_force_contribution_cost int
+	pages_4_goods_21_unknown int
 	pages_4_goods_22_id int
 	pages_4_goods_22_contrib_cost int
 	pages_4_goods_22_force_contribution_cost int
+	pages_4_goods_22_unknown int
 	pages_4_goods_23_id int
 	pages_4_goods_23_contrib_cost int
 	pages_4_goods_23_force_contribution_cost int
+	pages_4_goods_23_unknown int
 	pages_4_goods_24_id int
 	pages_4_goods_24_contrib_cost int
 	pages_4_goods_24_force_contribution_cost int
+	pages_4_goods_24_unknown int
 	pages_4_goods_25_id int
 	pages_4_goods_25_contrib_cost int
 	pages_4_goods_25_force_contribution_cost int
+	pages_4_goods_25_unknown int
 	pages_4_goods_26_id int
 	pages_4_goods_26_contrib_cost int
 	pages_4_goods_26_force_contribution_cost int
+	pages_4_goods_26_unknown int
 	pages_4_goods_27_id int
 	pages_4_goods_27_contrib_cost int
 	pages_4_goods_27_force_contribution_cost int
+	pages_4_goods_27_unknown int
 	pages_4_goods_28_id int
 	pages_4_goods_28_contrib_cost int
 	pages_4_goods_28_force_contribution_cost int
+	pages_4_goods_28_unknown int
 	pages_4_goods_29_id int
 	pages_4_goods_29_contrib_cost int
 	pages_4_goods_29_force_contribution_cost int
+	pages_4_goods_29_unknown int
 	pages_4_goods_30_id int
 	pages_4_goods_30_contrib_cost int
 	pages_4_goods_30_force_contribution_cost int
+	pages_4_goods_30_unknown int
 	pages_4_goods_31_id int
 	pages_4_goods_31_contrib_cost int
 	pages_4_goods_31_force_contribution_cost int
+	pages_4_goods_31_unknown int
 	pages_4_goods_32_id int
 	pages_4_goods_32_contrib_cost int
 	pages_4_goods_32_force_contribution_cost int
+	pages_4_goods_32_unknown int
 	pages_5_page_title utf16 16
 	pages_5_require_contrib int
 	pages_5_require_force int
@@ -1774,99 +1902,131 @@ npc_sell_service offset 0
 	pages_5_goods_1_id int
 	pages_5_goods_1_contrib_cost int
 	pages_5_goods_1_force_contribution_cost int
+	pages_5_goods_1_unknown int
 	pages_5_goods_2_id int
 	pages_5_goods_2_contrib_cost int
 	pages_5_goods_2_force_contribution_cost int
+	pages_5_goods_2_unknown int
 	pages_5_goods_3_id int
 	pages_5_goods_3_contrib_cost int
 	pages_5_goods_3_force_contribution_cost int
+	pages_5_goods_3_unknown int
 	pages_5_goods_4_id int
 	pages_5_goods_4_contrib_cost int
 	pages_5_goods_4_force_contribution_cost int
+	pages_5_goods_4_unknown int
 	pages_5_goods_5_id int
 	pages_5_goods_5_contrib_cost int
 	pages_5_goods_5_force_contribution_cost int
+	pages_5_goods_5_unknown int
 	pages_5_goods_6_id int
 	pages_5_goods_6_contrib_cost int
 	pages_5_goods_6_force_contribution_cost int
+	pages_5_goods_6_unknown int
 	pages_5_goods_7_id int
 	pages_5_goods_7_contrib_cost int
 	pages_5_goods_7_force_contribution_cost int
+	pages_5_goods_7_unknown int
 	pages_5_goods_8_id int
 	pages_5_goods_8_contrib_cost int
 	pages_5_goods_8_force_contribution_cost int
+	pages_5_goods_8_unknown int
 	pages_5_goods_9_id int
 	pages_5_goods_9_contrib_cost int
 	pages_5_goods_9_force_contribution_cost int
+	pages_5_goods_9_unknown int
 	pages_5_goods_10_id int
 	pages_5_goods_10_contrib_cost int
 	pages_5_goods_10_force_contribution_cost int
+	pages_5_goods_10_unknown int
 	pages_5_goods_11_id int
 	pages_5_goods_11_contrib_cost int
 	pages_5_goods_11_force_contribution_cost int
+	pages_5_goods_11_unknown int
 	pages_5_goods_12_id int
 	pages_5_goods_12_contrib_cost int
 	pages_5_goods_12_force_contribution_cost int
+	pages_5_goods_12_unknown int
 	pages_5_goods_13_id int
 	pages_5_goods_13_contrib_cost int
 	pages_5_goods_13_force_contribution_cost int
+	pages_5_goods_13_unknown int
 	pages_5_goods_14_id int
 	pages_5_goods_14_contrib_cost int
 	pages_5_goods_14_force_contribution_cost int
+	pages_5_goods_14_unknown int
 	pages_5_goods_15_id int
 	pages_5_goods_15_contrib_cost int
 	pages_5_goods_15_force_contribution_cost int
+	pages_5_goods_15_unknown int
 	pages_5_goods_16_id int
 	pages_5_goods_16_contrib_cost int
 	pages_5_goods_16_force_contribution_cost int
+	pages_5_goods_16_unknown int
 	pages_5_goods_17_id int
 	pages_5_goods_17_contrib_cost int
 	pages_5_goods_17_force_contribution_cost int
+	pages_5_goods_17_unknown int
 	pages_5_goods_18_id int
 	pages_5_goods_18_contrib_cost int
 	pages_5_goods_18_force_contribution_cost int
+	pages_5_goods_18_unknown int
 	pages_5_goods_19_id int
 	pages_5_goods_19_contrib_cost int
 	pages_5_goods_19_force_contribution_cost int
+	pages_5_goods_19_unknown int
 	pages_5_goods_20_id int
 	pages_5_goods_20_contrib_cost int
 	pages_5_goods_20_force_contribution_cost int
+	pages_5_goods_20_unknown int
 	pages_5_goods_21_id int
 	pages_5_goods_21_contrib_cost int
 	pages_5_goods_21_force_contribution_cost int
+	pages_5_goods_21_unknown int
 	pages_5_goods_22_id int
 	pages_5_goods_22_contrib_cost int
 	pages_5_goods_22_force_contribution_cost int
+	pages_5_goods_22_unknown int
 	pages_5_goods_23_id int
 	pages_5_goods_23_contrib_cost int
 	pages_5_goods_23_force_contribution_cost int
+	pages_5_goods_23_unknown int
 	pages_5_goods_24_id int
 	pages_5_goods_24_contrib_cost int
 	pages_5_goods_24_force_contribution_cost int
+	pages_5_goods_24_unknown int
 	pages_5_goods_25_id int
 	pages_5_goods_25_contrib_cost int
 	pages_5_goods_25_force_contribution_cost int
+	pages_5_goods_25_unknown int
 	pages_5_goods_26_id int
 	pages_5_goods_26_contrib_cost int
 	pages_5_goods_26_force_contribution_cost int
+	pages_5_goods_26_unknown int
 	pages_5_goods_27_id int
 	pages_5_goods_27_contrib_cost int
 	pages_5_goods_27_force_contribution_cost int
+	pages_5_goods_27_unknown int
 	pages_5_goods_28_id int
 	pages_5_goods_28_contrib_cost int
 	pages_5_goods_28_force_contribution_cost int
+	pages_5_goods_28_unknown int
 	pages_5_goods_29_id int
 	pages_5_goods_29_contrib_cost int
 	pages_5_goods_29_force_contribution_cost int
+	pages_5_goods_29_unknown int
 	pages_5_goods_30_id int
 	pages_5_goods_30_contrib_cost int
 	pages_5_goods_30_force_contribution_cost int
+	pages_5_goods_30_unknown int
 	pages_5_goods_31_id int
 	pages_5_goods_31_contrib_cost int
 	pages_5_goods_31_force_contribution_cost int
+	pages_5_goods_31_unknown int
 	pages_5_goods_32_id int
 	pages_5_goods_32_contrib_cost int
 	pages_5_goods_32_force_contribution_cost int
+	pages_5_goods_32_unknown int
 	pages_6_page_title utf16 16
 	pages_6_require_contrib int
 	pages_6_require_force int
@@ -1874,99 +2034,131 @@ npc_sell_service offset 0
 	pages_6_goods_1_id int
 	pages_6_goods_1_contrib_cost int
 	pages_6_goods_1_force_contribution_cost int
+	pages_6_goods_1_unknown int
 	pages_6_goods_2_id int
 	pages_6_goods_2_contrib_cost int
 	pages_6_goods_2_force_contribution_cost int
+	pages_6_goods_2_unknown int
 	pages_6_goods_3_id int
 	pages_6_goods_3_contrib_cost int
 	pages_6_goods_3_force_contribution_cost int
+	pages_6_goods_3_unknown int
 	pages_6_goods_4_id int
 	pages_6_goods_4_contrib_cost int
 	pages_6_goods_4_force_contribution_cost int
+	pages_6_goods_4_unknown int
 	pages_6_goods_5_id int
 	pages_6_goods_5_contrib_cost int
 	pages_6_goods_5_force_contribution_cost int
+	pages_6_goods_5_unknown int
 	pages_6_goods_6_id int
 	pages_6_goods_6_contrib_cost int
 	pages_6_goods_6_force_contribution_cost int
+	pages_6_goods_6_unknown int
 	pages_6_goods_7_id int
 	pages_6_goods_7_contrib_cost int
 	pages_6_goods_7_force_contribution_cost int
+	pages_6_goods_7_unknown int
 	pages_6_goods_8_id int
 	pages_6_goods_8_contrib_cost int
 	pages_6_goods_8_force_contribution_cost int
+	pages_6_goods_8_unknown int
 	pages_6_goods_9_id int
 	pages_6_goods_9_contrib_cost int
 	pages_6_goods_9_force_contribution_cost int
+	pages_6_goods_9_unknown int
 	pages_6_goods_10_id int
 	pages_6_goods_10_contrib_cost int
 	pages_6_goods_10_force_contribution_cost int
+	pages_6_goods_10_unknown int
 	pages_6_goods_11_id int
 	pages_6_goods_11_contrib_cost int
 	pages_6_goods_11_force_contribution_cost int
+	pages_6_goods_11_unknown int
 	pages_6_goods_12_id int
 	pages_6_goods_12_contrib_cost int
 	pages_6_goods_12_force_contribution_cost int
+	pages_6_goods_12_unknown int
 	pages_6_goods_13_id int
 	pages_6_goods_13_contrib_cost int
 	pages_6_goods_13_force_contribution_cost int
+	pages_6_goods_13_unknown int
 	pages_6_goods_14_id int
 	pages_6_goods_14_contrib_cost int
 	pages_6_goods_14_force_contribution_cost int
+	pages_6_goods_14_unknown int
 	pages_6_goods_15_id int
 	pages_6_goods_15_contrib_cost int
 	pages_6_goods_15_force_contribution_cost int
+	pages_6_goods_15_unknown int
 	pages_6_goods_16_id int
 	pages_6_goods_16_contrib_cost int
 	pages_6_goods_16_force_contribution_cost int
+	pages_6_goods_16_unknown int
 	pages_6_goods_17_id int
 	pages_6_goods_17_contrib_cost int
 	pages_6_goods_17_force_contribution_cost int
+	pages_6_goods_17_unknown int
 	pages_6_goods_18_id int
 	pages_6_goods_18_contrib_cost int
 	pages_6_goods_18_force_contribution_cost int
+	pages_6_goods_18_unknown int
 	pages_6_goods_19_id int
 	pages_6_goods_19_contrib_cost int
 	pages_6_goods_19_force_contribution_cost int
+	pages_6_goods_19_unknown int
 	pages_6_goods_20_id int
 	pages_6_goods_20_contrib_cost int
 	pages_6_goods_20_force_contribution_cost int
+	pages_6_goods_20_unknown int
 	pages_6_goods_21_id int
 	pages_6_goods_21_contrib_cost int
 	pages_6_goods_21_force_contribution_cost int
+	pages_6_goods_21_unknown int
 	pages_6_goods_22_id int
 	pages_6_goods_22_contrib_cost int
 	pages_6_goods_22_force_contribution_cost int
+	pages_6_goods_22_unknown int
 	pages_6_goods_23_id int
 	pages_6_goods_23_contrib_cost int
 	pages_6_goods_23_force_contribution_cost int
+	pages_6_goods_23_unknown int
 	pages_6_goods_24_id int
 	pages_6_goods_24_contrib_cost int
 	pages_6_goods_24_force_contribution_cost int
+	pages_6_goods_24_unknown int
 	pages_6_goods_25_id int
 	pages_6_goods_25_contrib_cost int
 	pages_6_goods_25_force_contribution_cost int
+	pages_6_goods_25_unknown int
 	pages_6_goods_26_id int
 	pages_6_goods_26_contrib_cost int
 	pages_6_goods_26_force_contribution_cost int
+	pages_6_goods_26_unknown int
 	pages_6_goods_27_id int
 	pages_6_goods_27_contrib_cost int
 	pages_6_goods_27_force_contribution_cost int
+	pages_6_goods_27_unknown int
 	pages_6_goods_28_id int
 	pages_6_goods_28_contrib_cost int
 	pages_6_goods_28_force_contribution_cost int
+	pages_6_goods_28_unknown int
 	pages_6_goods_29_id int
 	pages_6_goods_29_contrib_cost int
 	pages_6_goods_29_force_contribution_cost int
+	pages_6_goods_29_unknown int
 	pages_6_goods_30_id int
 	pages_6_goods_30_contrib_cost int
 	pages_6_goods_30_force_contribution_cost int
+	pages_6_goods_30_unknown int
 	pages_6_goods_31_id int
 	pages_6_goods_31_contrib_cost int
 	pages_6_goods_31_force_contribution_cost int
+	pages_6_goods_31_unknown int
 	pages_6_goods_32_id int
 	pages_6_goods_32_contrib_cost int
 	pages_6_goods_32_force_contribution_cost int
+	pages_6_goods_32_unknown int
 	pages_7_page_title utf16 16
 	pages_7_require_contrib int
 	pages_7_require_force int
@@ -1974,99 +2166,131 @@ npc_sell_service offset 0
 	pages_7_goods_1_id int
 	pages_7_goods_1_contrib_cost int
 	pages_7_goods_1_force_contribution_cost int
+	pages_7_goods_1_unknown int
 	pages_7_goods_2_id int
 	pages_7_goods_2_contrib_cost int
 	pages_7_goods_2_force_contribution_cost int
+	pages_7_goods_2_unknown int
 	pages_7_goods_3_id int
 	pages_7_goods_3_contrib_cost int
 	pages_7_goods_3_force_contribution_cost int
+	pages_7_goods_3_unknown int
 	pages_7_goods_4_id int
 	pages_7_goods_4_contrib_cost int
 	pages_7_goods_4_force_contribution_cost int
+	pages_7_goods_4_unknown int
 	pages_7_goods_5_id int
 	pages_7_goods_5_contrib_cost int
 	pages_7_goods_5_force_contribution_cost int
+	pages_7_goods_5_unknown int
 	pages_7_goods_6_id int
 	pages_7_goods_6_contrib_cost int
 	pages_7_goods_6_force_contribution_cost int
+	pages_7_goods_6_unknown int
 	pages_7_goods_7_id int
 	pages_7_goods_7_contrib_cost int
 	pages_7_goods_7_force_contribution_cost int
+	pages_7_goods_7_unknown int
 	pages_7_goods_8_id int
 	pages_7_goods_8_contrib_cost int
 	pages_7_goods_8_force_contribution_cost int
+	pages_7_goods_8_unknown int
 	pages_7_goods_9_id int
 	pages_7_goods_9_contrib_cost int
 	pages_7_goods_9_force_contribution_cost int
+	pages_7_goods_9_unknown int
 	pages_7_goods_10_id int
 	pages_7_goods_10_contrib_cost int
 	pages_7_goods_10_force_contribution_cost int
+	pages_7_goods_10_unknown int
 	pages_7_goods_11_id int
 	pages_7_goods_11_contrib_cost int
 	pages_7_goods_11_force_contribution_cost int
+	pages_7_goods_11_unknown int
 	pages_7_goods_12_id int
 	pages_7_goods_12_contrib_cost int
 	pages_7_goods_12_force_contribution_cost int
+	pages_7_goods_12_unknown int
 	pages_7_goods_13_id int
 	pages_7_goods_13_contrib_cost int
 	pages_7_goods_13_force_contribution_cost int
+	pages_7_goods_13_unknown int
 	pages_7_goods_14_id int
 	pages_7_goods_14_contrib_cost int
 	pages_7_goods_14_force_contribution_cost int
+	pages_7_goods_14_unknown int
 	pages_7_goods_15_id int
 	pages_7_goods_15_contrib_cost int
 	pages_7_goods_15_force_contribution_cost int
+	pages_7_goods_15_unknown int
 	pages_7_goods_16_id int
 	pages_7_goods_16_contrib_cost int
 	pages_7_goods_16_force_contribution_cost int
+	pages_7_goods_16_unknown int
 	pages_7_goods_17_id int
 	pages_7_goods_17_contrib_cost int
 	pages_7_goods_17_force_contribution_cost int
+	pages_7_goods_17_unknown int
 	pages_7_goods_18_id int
 	pages_7_goods_18_contrib_cost int
 	pages_7_goods_18_force_contribution_cost int
+	pages_7_goods_18_unknown int
 	pages_7_goods_19_id int
 	pages_7_goods_19_contrib_cost int
 	pages_7_goods_19_force_contribution_cost int
+	pages_7_goods_19_unknown int
 	pages_7_goods_20_id int
 	pages_7_goods_20_contrib_cost int
 	pages_7_goods_20_force_contribution_cost int
+	pages_7_goods_20_unknown int
 	pages_7_goods_21_id int
 	pages_7_goods_21_contrib_cost int
 	pages_7_goods_21_force_contribution_cost int
+	pages_7_goods_21_unknown int
 	pages_7_goods_22_id int
 	pages_7_goods_22_contrib_cost int
 	pages_7_goods_22_force_contribution_cost int
+	pages_7_goods_22_unknown int
 	pages_7_goods_23_id int
 	pages_7_goods_23_contrib_cost int
 	pages_7_goods_23_force_contribution_cost int
+	pages_7_goods_23_unknown int
 	pages_7_goods_24_id int
 	pages_7_goods_24_contrib_cost int
 	pages_7_goods_24_force_contribution_cost int
+	pages_7_goods_24_unknown int
 	pages_7_goods_25_id int
 	pages_7_goods_25_contrib_cost int
 	pages_7_goods_25_force_contribution_cost int
+	pages_7_goods_25_unknown int
 	pages_7_goods_26_id int
 	pages_7_goods_26_contrib_cost int
 	pages_7_goods_26_force_contribution_cost int
+	pages_7_goods_26_unknown int
 	pages_7_goods_27_id int
 	pages_7_goods_27_contrib_cost int
 	pages_7_goods_27_force_contribution_cost int
+	pages_7_goods_27_unknown int
 	pages_7_goods_28_id int
 	pages_7_goods_28_contrib_cost int
 	pages_7_goods_28_force_contribution_cost int
+	pages_7_goods_28_unknown int
 	pages_7_goods_29_id int
 	pages_7_goods_29_contrib_cost int
 	pages_7_goods_29_force_contribution_cost int
+	pages_7_goods_29_unknown int
 	pages_7_goods_30_id int
 	pages_7_goods_30_contrib_cost int
 	pages_7_goods_30_force_contribution_cost int
+	pages_7_goods_30_unknown int
 	pages_7_goods_31_id int
 	pages_7_goods_31_contrib_cost int
 	pages_7_goods_31_force_contribution_cost int
+	pages_7_goods_31_unknown int
 	pages_7_goods_32_id int
 	pages_7_goods_32_contrib_cost int
 	pages_7_goods_32_force_contribution_cost int
+	pages_7_goods_32_unknown int
 	pages_8_page_title utf16 16
 	pages_8_require_contrib int
 	pages_8_require_force int
@@ -2074,99 +2298,131 @@ npc_sell_service offset 0
 	pages_8_goods_1_id int
 	pages_8_goods_1_contrib_cost int
 	pages_8_goods_1_force_contribution_cost int
+	pages_8_goods_1_unknown int
 	pages_8_goods_2_id int
 	pages_8_goods_2_contrib_cost int
 	pages_8_goods_2_force_contribution_cost int
+	pages_8_goods_2_unknown int
 	pages_8_goods_3_id int
 	pages_8_goods_3_contrib_cost int
 	pages_8_goods_3_force_contribution_cost int
+	pages_8_goods_3_unknown int
 	pages_8_goods_4_id int
 	pages_8_goods_4_contrib_cost int
 	pages_8_goods_4_force_contribution_cost int
+	pages_8_goods_4_unknown int
 	pages_8_goods_5_id int
 	pages_8_goods_5_contrib_cost int
 	pages_8_goods_5_force_contribution_cost int
+	pages_8_goods_5_unknown int
 	pages_8_goods_6_id int
 	pages_8_goods_6_contrib_cost int
 	pages_8_goods_6_force_contribution_cost int
+	pages_8_goods_6_unknown int
 	pages_8_goods_7_id int
 	pages_8_goods_7_contrib_cost int
 	pages_8_goods_7_force_contribution_cost int
+	pages_8_goods_7_unknown int
 	pages_8_goods_8_id int
 	pages_8_goods_8_contrib_cost int
 	pages_8_goods_8_force_contribution_cost int
+	pages_8_goods_8_unknown int
 	pages_8_goods_9_id int
 	pages_8_goods_9_contrib_cost int
 	pages_8_goods_9_force_contribution_cost int
+	pages_8_goods_9_unknown int
 	pages_8_goods_10_id int
 	pages_8_goods_10_contrib_cost int
 	pages_8_goods_10_force_contribution_cost int
+	pages_8_goods_10_unknown int
 	pages_8_goods_11_id int
 	pages_8_goods_11_contrib_cost int
 	pages_8_goods_11_force_contribution_cost int
+	pages_8_goods_11_unknown int
 	pages_8_goods_12_id int
 	pages_8_goods_12_contrib_cost int
 	pages_8_goods_12_force_contribution_cost int
+	pages_8_goods_12_unknown int
 	pages_8_goods_13_id int
 	pages_8_goods_13_contrib_cost int
 	pages_8_goods_13_force_contribution_cost int
+	pages_8_goods_13_unknown int
 	pages_8_goods_14_id int
 	pages_8_goods_14_contrib_cost int
 	pages_8_goods_14_force_contribution_cost int
+	pages_8_goods_14_unknown int
 	pages_8_goods_15_id int
 	pages_8_goods_15_contrib_cost int
 	pages_8_goods_15_force_contribution_cost int
+	pages_8_goods_15_unknown int
 	pages_8_goods_16_id int
 	pages_8_goods_16_contrib_cost int
 	pages_8_goods_16_force_contribution_cost int
+	pages_8_goods_16_unknown int
 	pages_8_goods_17_id int
 	pages_8_goods_17_contrib_cost int
 	pages_8_goods_17_force_contribution_cost int
+	pages_8_goods_17_unknown int
 	pages_8_goods_18_id int
 	pages_8_goods_18_contrib_cost int
 	pages_8_goods_18_force_contribution_cost int
+	pages_8_goods_18_unknown int
 	pages_8_goods_19_id int
 	pages_8_goods_19_contrib_cost int
 	pages_8_goods_19_force_contribution_cost int
+	pages_8_goods_19_unknown int
 	pages_8_goods_20_id int
 	pages_8_goods_20_contrib_cost int
 	pages_8_goods_20_force_contribution_cost int
+	pages_8_goods_20_unknown int
 	pages_8_goods_21_id int
 	pages_8_goods_21_contrib_cost int
 	pages_8_goods_21_force_contribution_cost int
+	pages_8_goods_21_unknown int
 	pages_8_goods_22_id int
 	pages_8_goods_22_contrib_cost int
 	pages_8_goods_22_force_contribution_cost int
+	pages_8_goods_22_unknown int
 	pages_8_goods_23_id int
 	pages_8_goods_23_contrib_cost int
 	pages_8_goods_23_force_contribution_cost int
+	pages_8_goods_23_unknown int
 	pages_8_goods_24_id int
 	pages_8_goods_24_contrib_cost int
 	pages_8_goods_24_force_contribution_cost int
+	pages_8_goods_24_unknown int
 	pages_8_goods_25_id int
 	pages_8_goods_25_contrib_cost int
 	pages_8_goods_25_force_contribution_cost int
+	pages_8_goods_25_unknown int
 	pages_8_goods_26_id int
 	pages_8_goods_26_contrib_cost int
 	pages_8_goods_26_force_contribution_cost int
+	pages_8_goods_26_unknown int
 	pages_8_goods_27_id int
 	pages_8_goods_27_contrib_cost int
 	pages_8_goods_27_force_contribution_cost int
+	pages_8_goods_27_unknown int
 	pages_8_goods_28_id int
 	pages_8_goods_28_contrib_cost int
 	pages_8_goods_28_force_contribution_cost int
+	pages_8_goods_28_unknown int
 	pages_8_goods_29_id int
 	pages_8_goods_29_contrib_cost int
 	pages_8_goods_29_force_contribution_cost int
+	pages_8_goods_29_unknown int
 	pages_8_goods_30_id int
 	pages_8_goods_30_contrib_cost int
 	pages_8_goods_30_force_contribution_cost int
+	pages_8_goods_30_unknown int
 	pages_8_goods_31_id int
 	pages_8_goods_31_contrib_cost int
 	pages_8_goods_31_force_contribution_cost int
+	pages_8_goods_31_unknown int
 	pages_8_goods_32_id int
 	pages_8_goods_32_contrib_cost int
 	pages_8_goods_32_force_contribution_cost int
+	pages_8_goods_32_unknown int
 	id_dialog int
 
 ; index 41
@@ -3718,6 +3974,7 @@ npcs offset 0
 	combined_services2 int
 	id_force_service int
 	distance_service int
+	unknown int
 
 ; index 58
 talk_proc offset 0

@@ -134,7 +134,7 @@ class MainWindow(Tk):
         elif cfgtype == "double":
             return "double"
         elif cfgtype.startswith("utf") or cfgtype.startswith("gbk"):
-            return "varchar(255)"
+            return "varchar(512)"
         else:
             return "blob"
 
@@ -159,7 +159,7 @@ class MainWindow(Tk):
             #Skip the first four bytes
             self.read_bytes(4)
 
-            for i in range(40):#len(self.config.lists)):
+            for i in range(self.config.conversationIndex):#len(self.config.lists)):
                 l = self.config.lists[i]
                 if l.offset == "AUTO":
                     if i == 20:
@@ -198,7 +198,7 @@ class MainWindow(Tk):
                             if not l.ignores[k]:
                                 cstmt += '`'+l.fields[k]+"` "+self.sqltype(l.types[k])+", "
                                 istmt += '`'+l.fields[k]+"`, "
-                        cstmt = cstmt[:-2] + ")"
+                        cstmt = cstmt[:-2] + ") ENGINE=MyISAM"
                         self.execute(db, cstmt)
 
                         istmt = istmt[:-2] + ") VALUES "
