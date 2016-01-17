@@ -115,9 +115,9 @@ class MainWindow(Tk):
         elif datatype.startswith("utf16"):
             spl = datatype.split(None, 1)
             return "'"+conn.converter.escape(self.read_string(spl[1]).decode('utf16', 'replace').rstrip("\0"))+"'"
-        elif datatype.startswith("gb2312"):
+        elif datatype.startswith("gbk"):
             spl = datatype.split(None, 1)
-            return "'"+conn.converter.escape(self.read_string(spl[1]).decode('gb2312', 'replace').rstrip("\0"))+"'"
+            return "'"+conn.converter.escape(self.read_string(spl[1]).decode('gbk', 'replace').rstrip("\0"))+"'"
         else:
             spl = datatype.split(None, 1)
             return "'"+self.read_bytes(spl[1])+"'"
@@ -133,7 +133,7 @@ class MainWindow(Tk):
             return "float"
         elif cfgtype == "double":
             return "double"
-        elif cfgtype.startswith("utf") or cfgtype.startswith("gb2312"):
+        elif cfgtype.startswith("utf") or cfgtype.startswith("gbk"):
             return "varchar(255)"
         else:
             return "blob"

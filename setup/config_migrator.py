@@ -35,7 +35,7 @@ class ConfigMigrator:
                         typestring = "utf16 " + a[1]
                     elif fieldtype.startswith("string"):
                         a = fieldtype.split(":")
-                        typestring = "gb2312 " + a[1]
+                        typestring = "gbk " + a[1]
                     elif fieldtype.startswith("byte"):
                         a = fieldtype.split(":")
                         typestring = "byte " + a[1]

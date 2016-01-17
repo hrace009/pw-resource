@@ -19,8 +19,8 @@ weapon_types offset 0
 weapon_subtypes offset 0
 	id int
 	name utf16 64
-	file_hitgfx gb2312 128 @ignore
-	file_hitsfx gb2312 128 @ignore
+	file_hitgfx gbk 128 @ignore
+	file_hitsfx gbk 128 @ignore
 	probability_fastest float @ignore
 	probability_fast float @ignore
 	probability_normal float @ignore
@@ -37,10 +37,10 @@ weapons offset 0
 	weapon_subtype_id int
 	name utf16 64
 	projectile_type_id int
-	file_model_right gb2312 128 @ignore
-	file_model_left gb2312 128 @ignore
-	file_matter gb2312 128 @ignore
-	file_icon gb2312 128
+	file_model_right gbk 128 @ignore
+	file_model_left gbk 128 @ignore
+	file_matter gbk 128 @ignore
+	file_icon gbk 128
 	requisite_strength int
 	requisite_dexterity int
 	requisite_magic int
@@ -267,9 +267,9 @@ armors offset 0
 	armor_type_id int
 	armor_subtype_id int
 	name utf16 64
-	realname gb2312 32
-	file_matter gb2312 128 @ignore
-	file_icon gb2312 128
+	realname gbk 32
+	file_matter gbk 128 @ignore
+	file_icon gbk 128
 	equip_location int
 	level int
 	requisite_strength int
@@ -480,9 +480,9 @@ ornaments offset 0
 	ornament_type_id int
 	ornament_subtype_id int
 	name utf16 64
-	file_model gb2312 128 @ignore
-	file_matter gb2312 128 @ignore
-	file_icon gb2312 128
+	file_model gbk 128 @ignore
+	file_matter gbk 128 @ignore
+	file_icon gbk 128
 	level int
 	requisite_strength int
 	requisite_dexterity int
@@ -678,8 +678,8 @@ potions offset 0
 	potion_type_id int
 	potion_subtype_id int
 	name utf16 64
-	file_matter gb2312 128 @ignore
-	file_icon gb2312 128
+	file_matter gbk 128 @ignore
+	file_icon gbk 128
 	requisite_level int
 	cooldown int
 	hp_add_total int
@@ -708,8 +708,8 @@ materials offset 0
 	material_type_id int
 	material_subtype_id int
 	name utf16 64
-	file_matter gb2312 128 @ignore
-	file_icon gb2312 128
+	file_matter gbk 128 @ignore
+	file_icon gbk 128
 	price int
 	shop_price int
 	decompose_price int
@@ -730,8 +730,8 @@ attack_charms offset 0
 	id int
 	attack_charm_type_id int
 	name utf16 64
-	file_matter gb2312 128 @ignore
-	file_icon gb2312 128
+	file_matter gbk 128 @ignore
+	file_icon gbk 128
 	is_magic int @ignore
 	price int
 	shop_price int
@@ -752,10 +752,10 @@ defense_charms offset 0
 	id int
 	defense_charm_type_id int
 	name utf16 64
-	file_matter gb2312 128 @ignore
-	file_icon gb2312 128
-	file_gfx gb2312 128 @ignore
-	file_sfx gb2312 128 @ignore
+	file_matter gbk 128 @ignore
+	file_icon gbk 128
+	file_gfx gbk 128 @ignore
+	file_sfx gbk 128 @ignore
 	is_magic int @ignore
 	price int
 	shop_price int
@@ -777,8 +777,8 @@ skilltomes offset 0
 	id int
 	skilltome_type_id int
 	name utf16 64
-	file_matter gb2312 128 @ignore
-	file_icon gb2312 128
+	file_matter gbk 128 @ignore
+	file_icon gbk 128
 	price int
 	shop_price int
 	stack_to int
@@ -789,10 +789,10 @@ skilltomes offset 0
 flyers offset 0
 	id int
 	name utf16 64
-	file_model gb2312 128 @ignore
-	file_model2 gb2312 128 @ignore
-	file_matter gb2312 128 @ignore
-	file_icon gb2312 128
+	file_model gbk 128 @ignore
+	file_model2 gbk 128 @ignore
+	file_matter gbk 128 @ignore
+	file_icon gbk 128
 	price int
 	shop_price int
 	level int
@@ -847,9 +847,9 @@ flyers offset 0
 elf_wings offset 0
 	id int
 	name utf16 64
-	file_model gb2312 128 @ignore
-	file_matter gb2312 128 @ignore
-	file_icon gb2312 128
+	file_model gbk 128 @ignore
+	file_matter gbk 128 @ignore
+	file_icon gbk 128
 	price int
 	shop_price int
 	requisite_level int
@@ -864,8 +864,8 @@ elf_wings offset 0
 teleport_incenses offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128 @ignore
-	file_icon gb2312 128
+	file_matter gbk 128 @ignore
+	file_icon gbk 128
 	use_time float
 	price int
 	shop_price int
@@ -877,8 +877,8 @@ teleport_incenses offset 0
 unionscrolls offset 0 @ignore
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	use_time float
 	price int
 	shop_price int
@@ -890,8 +890,8 @@ unionscrolls offset 0 @ignore
 resurrection_scrolls offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128 @ignore
-	file_icon gb2312 128
+	file_matter gbk 128 @ignore
+	file_icon gbk 128
 	use_time float
 	cooldown int
 	price int
@@ -904,8 +904,8 @@ resurrection_scrolls offset 0
 chi_stones offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128 @ignore
-	file_icon gb2312 128
+	file_matter gbk 128 @ignore
+	file_icon gbk 128
 	level int
 	price int
 	shop_price int
@@ -917,7 +917,7 @@ chi_stones offset 0
 quest_items offset 0
 	id int
 	name utf16 64
-	file_icon gb2312 128
+	file_icon gbk 128
 	stack_to int
 	has_guid int
 	proc_type int
@@ -926,12 +926,12 @@ quest_items offset 0
 throwables offset 0
 	id int
 	name utf16 64
-	file_model gb2312 128 @ignore
-	file_matter gb2312 128 @ignore
-	file_icon gb2312 128
-	file_firegfx gb2312 128 @ignore
-	file_hitgfx gb2312 128 @ignore
-	file_hitsfx gb2312 128 @ignore
+	file_model gbk 128 @ignore
+	file_matter gbk 128 @ignore
+	file_icon gbk 128
+	file_firegfx gbk 128 @ignore
+	file_hitgfx gbk 128 @ignore
+	file_hitsfx gbk 128 @ignore
 	requisite_strength int
 	requisite_agility int
 	requisite_level int
@@ -956,12 +956,12 @@ projectiles offset 0
 	id int
 	projectile_type_id int
 	name utf16 64
-	file_model gb2312 128 @ignore
-	file_matter gb2312 128 @ignore
-	file_icon gb2312 128
-	file_firegfx gb2312 128 @ignore
-	file_hitgfx gb2312 128 @ignore
-	file_hitsfx gb2312 128 @ignore
+	file_model gbk 128 @ignore
+	file_matter gbk 128 @ignore
+	file_icon gbk 128
+	file_firegfx gbk 128 @ignore
+	file_hitgfx gbk 128 @ignore
+	file_hitsfx gbk 128 @ignore
 	requisite_weapon_level_min int
 	requisite_weapon_level_max int
 	physical_damage int
@@ -986,8 +986,8 @@ quivers offset 0
 	id int
 	quiver_type_id int
 	name utf16 64
-	file_matter gb2312 128 @ignore
-	file_icon gb2312 128
+	file_matter gbk 128 @ignore
+	file_icon gbk 128
 	projectile_type_id int
 	num_min int
 	num_max int
@@ -1002,8 +1002,8 @@ shards offset 0
 	id int
 	shard_type_id int
 	name utf16 64
-	file_matter gb2312 128 @ignore
-	file_icon gb2312 128
+	file_matter gbk 128 @ignore
+	file_icon gbk 128
 	level int
 	color int
 	price int
@@ -1076,9 +1076,9 @@ monsters offset 0
 	attributes utf16 32
 	faction int
 	monster_faction int
-	file_model gb2312 128 @ignore
-	file_gfx_short gb2312 128 @ignore
-	file_gfx_short_hit gb2312 128 @ignore
+	file_model gbk 128 @ignore
+	file_gfx_short gbk 128 @ignore
+	file_gfx_short_hit gbk 128 @ignore
 	size float
 	damage_delay float
 	id_strategy int
@@ -3677,7 +3677,7 @@ npcs offset 0
 	id_type int
 	refresh_time float
 	attack_rule int
-	file_model gb2312 128
+	file_model gbk 128
 	tax_rate float
 	id_src_monster int
 	hello_msg utf16 512
@@ -3727,9 +3727,9 @@ talk_proc offset 0
 face_textures offset 0
 	id int
 	name utf16 64
-	file_base_tex gb2312 128
-	file_high_tex gb2312 128
-	file_icon gb2312 128
+	file_base_tex gbk 128
+	file_high_tex gbk 128
+	file_icon gbk 128
 	tex_part_id int
 	character_combo_id int
 	gender_id int
@@ -3742,8 +3742,8 @@ face_textures offset 0
 face_shapes offset 0
 	id int
 	name utf16 64
-	file_shape gb2312 128
-	file_icon gb2312 128
+	file_shape gbk 128
+	file_icon gbk 128
 	shape_part_id int
 	character_combo_id int
 	gender_id int
@@ -3755,14 +3755,14 @@ face_shapes offset 0
 face_emotion_types offset 0
 	id int
 	name utf16 64
-	file_icon gb2312 128
+	file_icon gbk 128
 
 ; index 62
 face_expressions offset 0
 	id int
 	name utf16 64
-	file_expression gb2312 128
-	file_icon gb2312 128
+	file_expression gbk 128
+	file_icon gbk 128
 	character_combo_id int
 	gender_id int
 	emotion_id int
@@ -3771,9 +3771,9 @@ face_expressions offset 0
 face_hairs offset 0
 	id int
 	name utf16 64
-	file_hair_skin gb2312 128
-	file_hair_model gb2312 128
-	file_icon gb2312 128
+	file_hair_skin gbk 128
+	file_hair_model gbk 128
+	file_icon gbk 128
 	character_combo_id int
 	gender_id int
 	visualize_id int
@@ -3784,8 +3784,8 @@ face_hairs offset 0
 face_moustaches offset 0
 	id int
 	name utf16 64
-	file_moustache_skin gb2312 128
-	file_icon gb2312 128
+	file_moustache_skin gbk 128
+	file_icon gbk 128
 	character_combo_id int
 	gender_id int
 	visualize_id int
@@ -3795,7 +3795,7 @@ face_moustaches offset 0
 colorpickers offset 0
 	id int
 	name utf16 64
-	file_colorpicker gb2312 128
+	file_colorpicker gbk 128
 	color_part_id int
 	character_combo_id int
 	gender_id int
@@ -3804,8 +3804,8 @@ colorpickers offset 0
 customizedatas offset 0
 	id int
 	name utf16 64
-	file_data gb2312 128
-	file_icon gb2312 128
+	file_data gbk 128
+	file_icon gbk 128
 	character_combo_id int
 	gender_id int
 
@@ -4152,31 +4152,31 @@ param_adjust_config offset 0
 player_action_info_config offset 0
 	id int
 	name utf16 64
-	action_name gb2312 32
-	action_prefix gb2312 32
-	action_weapon_suffix_1_suffix gb2312 32
-	action_weapon_suffix_2_suffix gb2312 32
-	action_weapon_suffix_3_suffix gb2312 32
-	action_weapon_suffix_4_suffix gb2312 32
-	action_weapon_suffix_5_suffix gb2312 32
-	action_weapon_suffix_6_suffix gb2312 32
-	action_weapon_suffix_7_suffix gb2312 32
-	action_weapon_suffix_8_suffix gb2312 32
-	action_weapon_suffix_9_suffix gb2312 32
-	action_weapon_suffix_10_suffix gb2312 32
-	action_weapon_suffix_11_suffix gb2312 32
-	action_weapon_suffix_12_suffix gb2312 32
-	action_weapon_suffix_13_suffix gb2312 32
-	action_weapon_suffix_14_suffix gb2312 32
-	action_weapon_suffix_15_suffix gb2312 32
+	action_name gbk 32
+	action_prefix gbk 32
+	action_weapon_suffix_1_suffix gbk 32
+	action_weapon_suffix_2_suffix gbk 32
+	action_weapon_suffix_3_suffix gbk 32
+	action_weapon_suffix_4_suffix gbk 32
+	action_weapon_suffix_5_suffix gbk 32
+	action_weapon_suffix_6_suffix gbk 32
+	action_weapon_suffix_7_suffix gbk 32
+	action_weapon_suffix_8_suffix gbk 32
+	action_weapon_suffix_9_suffix gbk 32
+	action_weapon_suffix_10_suffix gbk 32
+	action_weapon_suffix_11_suffix gbk 32
+	action_weapon_suffix_12_suffix gbk 32
+	action_weapon_suffix_13_suffix gbk 32
+	action_weapon_suffix_14_suffix gbk 32
+	action_weapon_suffix_15_suffix gbk 32
 	hide_weapon int
 
 ; index 74
 taskdices offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	task_lists_1_id int
 	task_lists_1_probability float
 	task_lists_2_id int
@@ -4227,8 +4227,8 @@ taskdices offset 0
 tasknormalmatters offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	price int
 	shop_price int
 	stack_to int
@@ -4239,8 +4239,8 @@ tasknormalmatters offset 0
 face_falings offset 0
 	id int
 	name utf16 64
-	file_faling_skin gb2312 128
-	file_icon gb2312 128
+	file_faling_skin gbk 128
+	file_icon gbk 128
 	character_combo_id int
 	gender_id int
 	visualize_id int
@@ -4419,7 +4419,7 @@ mines offset 0
 	time_max int
 	exp int
 	skillpoint int
-	file_model gb2312 128
+	file_model gbk 128
 	materials_1_id int
 	materials_1_probability float
 	materials_1_life int
@@ -4526,9 +4526,9 @@ fashions offset 0
 	id_major_type int
 	id_sub_type int
 	name utf16 64
-	realname gb2312 32
-	file_matter gb2312 128
-	file_icon gb2312 128
+	realname gbk 32
+	file_matter gbk 128
+	file_icon gbk 128
 	equip_location int
 	level int
 	require_level int
@@ -4541,9 +4541,9 @@ fashions offset 0
 	stack_to int
 	has_guid int
 	proc_type int
-	wear_action gb2312 32
-	file_model_right gb2312 128
-	file_model_left gb2312 128
+	wear_action gbk 32
+	file_model_right gbk 128
+	file_model_left gbk 128
 	character_combo_id int
 	action_type int
 	fixed_color int
@@ -4570,10 +4570,10 @@ facetickets offset 0
 	id_major_type int
 	id_sub_type int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	require_level int
-	bound_file gb2312 128
+	bound_file gbk 128
 	unsymmetrical int
 	price int
 	shop_price int
@@ -4597,35 +4597,35 @@ facepills offset 0
 	id_major_type int
 	id_sub_type int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	duration int
 	camera_scale float
 	character_combo_id int
-	pllfiles_1_file gb2312 128
-	pllfiles_2_file gb2312 128
-	pllfiles_3_file gb2312 128
-	pllfiles_4_file gb2312 128
-	pllfiles_5_file gb2312 128
-	pllfiles_6_file gb2312 128
-	pllfiles_7_file gb2312 128
-	pllfiles_8_file gb2312 128
-	pllfiles_9_file gb2312 128
-	pllfiles_10_file gb2312 128
-	pllfiles_11_file gb2312 128
-	pllfiles_12_file gb2312 128
-	pllfiles_13_file gb2312 128
-	pllfiles_14_file gb2312 128
-	pllfiles_15_file gb2312 128
-	pllfiles_16_file gb2312 128
-	pllfiles_17_file gb2312 128
-	pllfiles_18_file gb2312 128
-	pllfiles_19_file gb2312 128
-	pllfiles_20_file gb2312 128
-	pllfiles_21_file gb2312 128
-	pllfiles_22_file gb2312 128
-	pllfiles_23_file gb2312 128
-	pllfiles_24_file gb2312 128
+	pllfiles_1_file gbk 128
+	pllfiles_2_file gbk 128
+	pllfiles_3_file gbk 128
+	pllfiles_4_file gbk 128
+	pllfiles_5_file gbk 128
+	pllfiles_6_file gbk 128
+	pllfiles_7_file gbk 128
+	pllfiles_8_file gbk 128
+	pllfiles_9_file gbk 128
+	pllfiles_10_file gbk 128
+	pllfiles_11_file gbk 128
+	pllfiles_12_file gbk 128
+	pllfiles_13_file gbk 128
+	pllfiles_14_file gbk 128
+	pllfiles_15_file gbk 128
+	pllfiles_16_file gbk 128
+	pllfiles_17_file gbk 128
+	pllfiles_18_file gbk 128
+	pllfiles_19_file gbk 128
+	pllfiles_20_file gbk 128
+	pllfiles_21_file gbk 128
+	pllfiles_22_file gbk 128
+	pllfiles_23_file gbk 128
+	pllfiles_24_file gbk 128
 	price int
 	shop_price int
 	stack_to int
@@ -4660,7 +4660,7 @@ suites offset 0
 	addons_9_id int
 	addons_10_id int
 	addons_11_id int
-	file_gfx gb2312 128
+	file_gfx gbk 128
 
 ; index 91
 gm_generator_types offset 0
@@ -4672,8 +4672,8 @@ gm_generators offset 0
 	id int
 	id_type int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	id_object int
 	stack_to int
 	has_guid int
@@ -4689,8 +4689,8 @@ pets offset 0
 	id int
 	id_type int
 	name utf16 64
-	file_model gb2312 128
-	file_icon gb2312 128
+	file_model gbk 128
+	file_icon gbk 128
 	character_combo_id int
 	level_max int
 	level_require int
@@ -4746,7 +4746,7 @@ pets offset 0
 	attack_level_inherit_max_rate int
 	defence_level_inherit_max_rate int
 	specific_skill int
-	file_gfx_short gb2312 128
+	file_gfx_short gbk 128
 	id_evolved_skill_rand int
 	unk int
 
@@ -4754,8 +4754,8 @@ pets offset 0
 pet_eggs offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	id_pet int
 	money_hatched int
 	money_restored int
@@ -4837,8 +4837,8 @@ pet_eggs offset 0
 pet_foods offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	level int
 	hornor int
 	exp int
@@ -4853,8 +4853,8 @@ pet_foods offset 0
 pet_facetickets offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	price int
 	shop_price int
 	stack_to int
@@ -4865,9 +4865,9 @@ pet_facetickets offset 0
 fireworkss offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
-	file_fw gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
+	file_fw gbk 128
 	level int
 	time_to_fire int
 	price int
@@ -4880,8 +4880,8 @@ fireworkss offset 0
 war_tankcallins offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	price int
 	shop_price int
 	stack_to int
@@ -5406,8 +5406,8 @@ npc_petforgetskill_service offset 0
 skillmatters offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	level_required int
 	id_skill int
 	level_skill int
@@ -5421,8 +5421,8 @@ skillmatters offset 0
 refine_tickets offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	desc utf16 32
 	ext_reserved_prob float
 	ext_succeed_prob float
@@ -5451,8 +5451,8 @@ refine_tickets offset 0
 destroyings offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	price int
 	shop_price int
 	stack_to int
@@ -5488,8 +5488,8 @@ npc_equipundestroy_service offset 0
 bibles offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	id_addons_1 int
 	id_addons_2 int
 	id_addons_3 int
@@ -5512,8 +5512,8 @@ bibles offset 0
 speakers offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	id_icon_set int
 	price int
 	shop_price int
@@ -5525,8 +5525,8 @@ speakers offset 0
 autohps offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	total_hp int
 	trigger_amount float
 	cooldown int
@@ -5540,8 +5540,8 @@ autohps offset 0
 automps offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	total_mp int
 	trigger_amount float
 	cooldown int
@@ -5555,8 +5555,8 @@ automps offset 0
 double_exps offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	double_exp_time int
 	price int
 	shop_price int
@@ -5568,8 +5568,8 @@ double_exps offset 0
 transmitscrolls offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	price int
 	shop_price int
 	stack_to int
@@ -5580,8 +5580,8 @@ transmitscrolls offset 0
 dye_tickets offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	h_min float
 	h_max float
 	s_min float
@@ -5599,15 +5599,15 @@ dye_tickets offset 0
 goblins offset 0
 	id int
 	name utf16 64
-	file_model1 gb2312 128
-	file_model2 gb2312 128
-	file_model3 gb2312 128
-	file_model4 gb2312 128
-	file_matter gb2312 128
-	file_icon1 gb2312 128
-	file_icon2 gb2312 128
-	file_icon3 gb2312 128
-	file_icon4 gb2312 128
+	file_model1 gbk 128
+	file_model2 gbk 128
+	file_model3 gbk 128
+	file_model4 gbk 128
+	file_matter gbk 128
+	file_icon1 gbk 128
+	file_icon2 gbk 128
+	file_icon3 gbk 128
+	file_icon4 gbk 128
 	exp_factor float
 	init_strength int
 	init_agility int
@@ -5653,8 +5653,8 @@ goblin_equips offset 0
 	id int
 	id_type int
 	name utf16 64
-	file_model gb2312 128
-	file_icon gb2312 128
+	file_model gbk 128
+	file_icon gbk 128
 	equip_type int
 	req_goblin_level int
 	strength int
@@ -5676,8 +5676,8 @@ goblin_equips offset 0
 goblin_exppills offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	exp int
 	level int
 	price int
@@ -5690,9 +5690,9 @@ goblin_exppills offset 0
 sell_certificates offset 0
 	id int
 	name utf16 64
-	show_model gb2312 128
-	file_matter gb2312 128
-	file_icon gb2312 128
+	show_model gbk 128
+	file_matter gbk 128
+	file_icon gbk 128
 	num_sell_item int
 	num_buy_item int
 	max_name_length int
@@ -5701,14 +5701,14 @@ sell_certificates offset 0
 	stack_to int
 	has_guid int
 	proc_type int
-	file_img gb2312 128
+	file_img gbk 128
 
 ; index 124
 target_items offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	num_use_pertime int
 	num_area int
 	area_id_1 int
@@ -5746,8 +5746,8 @@ target_items offset 0
 look_infos offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	price int
 	shop_price int
 	stack_to int
@@ -6886,8 +6886,8 @@ multi_exp_config offset 0
 inc_skill_abilitys offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	id_skill int
 	level_required int
 	inc_ratio float
@@ -7307,8 +7307,8 @@ wedding_config offset 0
 wedding_bookcards offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	year int
 	month int
 	day int
@@ -7322,8 +7322,8 @@ wedding_bookcards offset 0
 wedding_invitecards offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	price int
 	shop_price int
 	stack_to int
@@ -7334,8 +7334,8 @@ wedding_invitecards offset 0
 sharpeners offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	level int
 	equip_mask int
 	addon_1 int
@@ -7353,8 +7353,8 @@ sharpeners offset 0
 face_thirdeyes offset 0
 	id int
 	name utf16 64
-	file_gfx gb2312 128
-	file_icon gb2312 128
+	file_gfx gbk 128
+	file_icon gbk 128
 	character_combo_id int
 	gender_id int
 	facepill_only int
@@ -7846,7 +7846,7 @@ faction_buildings offset 0
 	id int
 	id_sub_type int
 	name utf16 64
-	file_icon gb2312 128
+	file_icon gbk 128
 	level int
 	require_level int
 	technology_1 int
@@ -7872,8 +7872,8 @@ faction_buildings offset 0
 faction_materials offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	material_count_1 int
 	material_count_2 int
 	material_count_3 int
@@ -7892,8 +7892,8 @@ faction_materials offset 0
 congregates offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	congregate_type int
 	area_1_id int
 	area_1_require_level int
@@ -7957,7 +7957,7 @@ engraves offset 0
 	id_major_type int
 	id_sub_type int
 	name utf16 64
-	file_icon gb2312 128
+	file_icon gbk 128
 	level int
 	equip_mask int
 	require_level_min int
@@ -9442,7 +9442,7 @@ wiki_taboo_config offset 0
 force_config offset 0
 	id int
 	name utf16 64
-	file_icon gb2312 128
+	file_icon gbk 128
 	color int
 	desc utf16 512
 	reputation_max int
@@ -9456,8 +9456,8 @@ force_config offset 0
 force_tokens offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	require_force int
 	reputation_add int
 	reputation_increase_ratio int
@@ -9738,8 +9738,8 @@ player_death_drop_config offset 0
 dynskillequips offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	id_skill_1 int
 	id_skill_2 int
 	id_skill_3 int
@@ -12454,16 +12454,16 @@ country_config offset 0
 	id int
 	name utf16 64
 	country_1_name utf16 64
-	country_1_file_icon gb2312 128
+	country_1_file_icon gbk 128
 	country_1_color int
 	country_2_name utf16 64
-	country_2_file_icon gb2312 128
+	country_2_file_icon gbk 128
 	country_2_color int
 	country_3_name utf16 64
-	country_3_file_icon gb2312 128
+	country_3_file_icon gbk 128
 	country_3_color int
 	country_4_name utf16 64
-	country_4_file_icon gb2312 128
+	country_4_file_icon gbk 128
 	country_4_color int
 	flag_controller_id_1 int
 	flag_controller_id_2 int
@@ -12818,8 +12818,8 @@ pet_evolved_skill_config offset 0
 money_convertibles offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	price int
 	shop_price int
 	stack_to int
@@ -13024,68 +13024,68 @@ autotask_display_config offset 0
 	id int
 	name utf16 64
 	list_1_task_id int
-	list_1_file_icon gb2312 128
-	list_1_file_gfx gb2312 128
+	list_1_file_icon gbk 128
+	list_1_file_gfx gbk 128
 	list_1_color int
 	list_2_task_id int
-	list_2_file_icon gb2312 128
-	list_2_file_gfx gb2312 128
+	list_2_file_icon gbk 128
+	list_2_file_gfx gbk 128
 	list_2_color int
 	list_3_task_id int
-	list_3_file_icon gb2312 128
-	list_3_file_gfx gb2312 128
+	list_3_file_icon gbk 128
+	list_3_file_gfx gbk 128
 	list_3_color int
 	list_4_task_id int
-	list_4_file_icon gb2312 128
-	list_4_file_gfx gb2312 128
+	list_4_file_icon gbk 128
+	list_4_file_gfx gbk 128
 	list_4_color int
 	list_5_task_id int
-	list_5_file_icon gb2312 128
-	list_5_file_gfx gb2312 128
+	list_5_file_icon gbk 128
+	list_5_file_gfx gbk 128
 	list_5_color int
 	list_6_task_id int
-	list_6_file_icon gb2312 128
-	list_6_file_gfx gb2312 128
+	list_6_file_icon gbk 128
+	list_6_file_gfx gbk 128
 	list_6_color int
 	list_7_task_id int
-	list_7_file_icon gb2312 128
-	list_7_file_gfx gb2312 128
+	list_7_file_icon gbk 128
+	list_7_file_gfx gbk 128
 	list_7_color int
 	list_8_task_id int
-	list_8_file_icon gb2312 128
-	list_8_file_gfx gb2312 128
+	list_8_file_icon gbk 128
+	list_8_file_gfx gbk 128
 	list_8_color int
 	list_9_task_id int
-	list_9_file_icon gb2312 128
-	list_9_file_gfx gb2312 128
+	list_9_file_icon gbk 128
+	list_9_file_gfx gbk 128
 	list_9_color int
 	list_10_task_id int
-	list_10_file_icon gb2312 128
-	list_10_file_gfx gb2312 128
+	list_10_file_icon gbk 128
+	list_10_file_gfx gbk 128
 	list_10_color int
 	list_11_task_id int
-	list_11_file_icon gb2312 128
-	list_11_file_gfx gb2312 128
+	list_11_file_icon gbk 128
+	list_11_file_gfx gbk 128
 	list_11_color int
 	list_12_task_id int
-	list_12_file_icon gb2312 128
-	list_12_file_gfx gb2312 128
+	list_12_file_icon gbk 128
+	list_12_file_gfx gbk 128
 	list_12_color int
 	list_13_task_id int
-	list_13_file_icon gb2312 128
-	list_13_file_gfx gb2312 128
+	list_13_file_icon gbk 128
+	list_13_file_gfx gbk 128
 	list_13_color int
 	list_14_task_id int
-	list_14_file_icon gb2312 128
-	list_14_file_gfx gb2312 128
+	list_14_file_icon gbk 128
+	list_14_file_gfx gbk 128
 	list_14_color int
 	list_15_task_id int
-	list_15_file_icon gb2312 128
-	list_15_file_gfx gb2312 128
+	list_15_file_icon gbk 128
+	list_15_file_gfx gbk 128
 	list_15_color int
 	list_16_task_id int
-	list_16_file_icon gb2312 128
-	list_16_file_gfx gb2312 128
+	list_16_file_icon gbk 128
+	list_16_file_gfx gbk 128
 	list_16_color int
 
 ; index 168
@@ -13658,8 +13658,8 @@ complex_title_config offset 0
 monster_spirits offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	type int
 	level int
 	power int
@@ -13789,7 +13789,7 @@ history_advance_config offset 0
 autoteam_config offset 0
 	id int
 	name utf16 64
-	file_icon gb2312 128
+	file_icon gbk 128
 	desc utf16 512
 	type int
 	require_level_1 int
@@ -14111,7 +14111,7 @@ player_realm_config offset 0
 chariot_config offset 0
 	id int
 	name utf16 64
-	file_icon gb2312 128
+	file_icon gbk 128
 	desc utf16 512
 	level int
 	shape int
@@ -14270,8 +14270,8 @@ poker_suites offset 0
 poker_dices offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	swallow_exp int
 	list_1_id int
 	list_1_probability float
@@ -14804,10 +14804,10 @@ pokers offset 0
 	id int
 	id_sub_type int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
-	file_img gb2312 128
-	file_gfx gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
+	file_img gbk 128
+	file_gfx gbk 128
 	require_level int
 	require_control_point_1 int
 	require_control_point_2 int
@@ -14918,8 +14918,8 @@ token_shop_config offset 0
 shop_tokens offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	id_token_shop int
 	price int
 	shop_price int
@@ -15569,8 +15569,8 @@ faction_pvp_config offset 0
 universal_tokens offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	link_num int
 	link_tag_1 int
 	link_tag_2 int
@@ -15914,7 +15914,7 @@ task_dice_by_weight_config offset 0
 fashion_suites offset 0
 	id int
 	name utf16 64
-	file_icon gb2312 128
+	file_icon gbk 128
 	fashion_1 int
 	fashion_2 int
 	fashion_3 int
@@ -16127,8 +16127,8 @@ sign_award_config offset 0
 astrolabes offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	character_combo_id int
 	require_level int
 	point_value_1_min int
@@ -16244,8 +16244,8 @@ astrolabes offset 0
 astrolabe_random_addons offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	exp int
 	price int
 	shop_price int
@@ -16257,8 +16257,8 @@ astrolabe_random_addons offset 0
 astrolabe_inc_inner_point_values offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	unk1 int
 	ink_point_prob_1 float
 	ink_point_prob_2 float
@@ -16282,8 +16282,8 @@ astrolabe_inc_inner_point_values offset 0
 astrolabe_inc_exps offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	swallow_exp int
 	price int
 	shop_price int
@@ -16295,8 +16295,8 @@ astrolabe_inc_exps offset 0
 item_package_by_professions offset 0
 	id int
 	name utf16 64
-	file_matter gb2312 128
-	file_icon gb2312 128
+	file_matter gbk 128
+	file_icon gbk 128
 	prof_1_gender_1_id int
 	prof_1_gender_2_id int
 	prof_2_gender_1_id int
@@ -16553,25 +16553,25 @@ astrolabe_appearance_config offset 0
 	id int
 	name utf16 64
 	list_1_color int
-	list_1_file_gfx gb2312 128
+	list_1_file_gfx gbk 128
 	list_2_color int
-	list_2_file_gfx gb2312 128
+	list_2_file_gfx gbk 128
 	list_3_color int
-	list_3_file_gfx gb2312 128
+	list_3_file_gfx gbk 128
 	list_4_color int
-	list_4_file_gfx gb2312 128
+	list_4_file_gfx gbk 128
 	list_5_color int
-	list_5_file_gfx gb2312 128
+	list_5_file_gfx gbk 128
 	list_6_color int
-	list_6_file_gfx gb2312 128
+	list_6_file_gfx gbk 128
 	list_7_color int
-	list_7_file_gfx gb2312 128
+	list_7_file_gfx gbk 128
 	list_8_color int
-	list_8_file_gfx gb2312 128
+	list_8_file_gfx gbk 128
 	list_9_color int
-	list_9_file_gfx gb2312 128
+	list_9_file_gfx gbk 128
 	list_10_color int
-	list_10_file_gfx gb2312 128
+	list_10_file_gfx gbk 128
 
 ; index 205
 equip_make_hole_config offset 0
