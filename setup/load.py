@@ -198,7 +198,7 @@ class MainWindow(Tk):
                             if not l.ignores[k]:
                                 cstmt += '`'+l.fields[k]+"` "+self.sqltype(l.types[k])+", "
                                 istmt += '`'+l.fields[k]+"`, "
-                        cstmt = cstmt[:-2] + ") ENGINE=MyISAM"
+                        cstmt = cstmt[:-2] + ", PRIMARY KEY(id)) ENGINE=MyISAM"
                         self.execute(db, cstmt)
 
                         istmt = istmt[:-2] + ") VALUES "

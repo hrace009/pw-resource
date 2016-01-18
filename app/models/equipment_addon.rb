@@ -1,5 +1,4 @@
 class EquipmentAddon < ElementdataModel
-    self.primary_key = "id"
 
     def param_list
         list = []
