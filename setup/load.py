@@ -7,6 +7,9 @@ import mysql.connector, sys, subprocess
 from config import *
 
 
+ELEMENTDATA_TABLE_PREFIX = "ed_"
+
+
 nonbmpmap = dict.fromkeys(range(0x10000, sys.maxunicode+1), 0xfffd)
 
 class MainWindow(Tk):
@@ -147,13 +150,12 @@ class MainWindow(Tk):
         try:
             conn = mysql.connector.connect(user=self.userInput.get(), password=self.passwordInput.get(),
                                          host=self.hostInput.get())
-            if not askyesno("Proceed", "This will drop the selected database if it already exists. Are you sure you wish to proceed?"):
+            if not askyesno("Proceed", "This will drop elementdata tables in the selected database if they already exist. Are you sure you wish to proceed?"):
                 conn.close()
                 return
             db = conn.cursor()
 
-            self.execute(db, 'DROP DATABASE IF EXISTS '+self.dbInput.get())
-            self.execute(db, 'CREATE DATABASE '+self.dbInput.get())
+            self.execute(db, 'CREATE DATABASE IF NOT EXISTS '+self.dbInput.get())
             conn.database = self.dbInput.get()
 
             #Skip the first four bytes
@@ -191,9 +193,10 @@ class MainWindow(Tk):
                             for f in l.types:
                                 self.read(f, conn)
                     else:
-                        print("Building table "+l.name+"...")
-                        cstmt = "CREATE TABLE `"+l.name+"` ("
-                        istmt = "INSERT INTO `"+l.name+"` ("
+                        name = ELEMENTDATA_TABLE_PREFIX + l.name
+                        print("Building table "+name+"...")
+                        cstmt = "CREATE TABLE `"+name+"` ("
+                        istmt = "INSERT INTO `"+name+"` ("
                         for k in range(len(l.fields)):
                             if not l.ignores[k]:
                                 cstmt += '`'+l.fields[k]+"` "+self.sqltype(l.types[k])+", "
@@ -207,7 +210,7 @@ class MainWindow(Tk):
                         count = self.read_int()
                         if count > 0:
                             print("Populating "+str(count)+" entries...")
-                        self.loadStatus.set("Building table "+l.name+" ("+str(count)+" entries)...")
+                        self.loadStatus.set("Building table "+name+" ("+str(count)+" entries)...")
                         self.update()
                         for j in range(count):
                             if len(istmt) > len_limit:
